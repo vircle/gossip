@@ -1,0 +1,2 @@
+usr/local/bin/gossipd usr/bin
+usr/local/bin/gossip-cli usr/bin

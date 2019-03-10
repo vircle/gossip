@@ -1,0 +1,26 @@
+[Unit]
+Description=GOSSIP's distributed currency daemon
+After=network.target
+
+[Service]
+User=gossip
+Group=gossip
+
+Type=forking
+PIDFile=/var/lib/gossipd/gossipd.pid
+
+ExecStart=/usr/bin/gossipd -daemon -pid=/var/lib/gossipd/gossipd.pid \
+          -conf=/etc/gossip/gossip.conf -datadir=/var/lib/gossipd
+
+ExecStop=-/usr/bin/gossip-cli -conf=/etc/gossip/gossip.conf \
+         -datadir=/var/lib/gossipd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

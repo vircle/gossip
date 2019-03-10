@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=GOSSIP
+Comment=GOSSIP P2P Cryptocurrency
+Comment[fr]=GOSSIP, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=GOSSIP, eşten eşe kriptografik sanal para birimi
+Exec=gossip-qt %u
+Terminal=false
+Type=Application
+Icon=gossip128
+MimeType=x-scheme-handler/gossip;
+Categories=Office;Finance;

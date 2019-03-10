@@ -1,0 +1,29 @@
+// Copyright (c) 2017 The PIVX developers
+// Copyright (c) 2018-2019 The GOSSIP developers
+// Distributed under the MIT software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+#ifndef GOSSIP_ACCUMULATORMAP_H
+#define GOSSIP_ACCUMULATORMAP_H
+
+#include "accumulatorcheckpoints.h"
+#include "libzerocoin/Accumulator.h"
+#include "libzerocoin/Coin.h"
+
+//A map with an accumulator for each denomination
+class AccumulatorMap
+{
+private:
+    std::map<libzerocoin::CoinDenomination, std::unique_ptr<libzerocoin::Accumulator> > mapAccumulators;
+    libzerocoin::ZerocoinParams* params;
+public:
+    AccumulatorMap(libzerocoin::ZerocoinParams* currentParams);
+    bool Load(uint256 nCheckpoint);
+    void Load(const AccumulatorCheckpoints::Checkpoint& checkpoint);
+    bool Accumulate(libzerocoin::PublicCoin pubCoin, bool fSkipValidation = false);
+    CBigNum GetValue(libzerocoin::CoinDenomination denom);
+    libzerocoin::ZerocoinParams* GetZerocoinParams();
+    void SetZerocoinParams(libzerocoin::ZerocoinParams* params);
+    uint256 GetCheckpoint();
+    void Reset();
+};
+#endif //GOSSIP_ACCUMULATORMAP_H
