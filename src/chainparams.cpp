@@ -163,10 +163,12 @@ public:
         assert(hashGenesisBlock == uint256("0x00000de6a05a95fb27a241808eb19636411f91455cb56f9dbb76e04cad966550"));
         assert(genesis.hashMerkleRoot == uint256("0xcbc9930b999fcd422cc3973934beaccbc34168f0ff9279cefa52ff19907d72ce"));
 
-        vSeeds.push_back(CDNSSeedData("0", "s0.gossipcoin.org"));
-        vSeeds.push_back(CDNSSeedData("1", "s1.gossipcoin.org"));
-    	vSeeds.push_back(CDNSSeedData("2", "s2.gossipcoin.org"));
-        vSeeds.push_back(CDNSSeedData("3", "s3.gossipcoin.org"));
+        vSeeds.push_back(CDNSSeedData("gossipcoin.org", "s0.gossipcoin.org"));
+        vSeeds.push_back(CDNSSeedData("gossipcoin.org", "s1.gossipcoin.org"));
+    	vSeeds.push_back(CDNSSeedData("gossipcoin.org", "s2.gossipcoin.org"));
+        vSeeds.push_back(CDNSSeedData("gossipcoin.org", "s3.gossipcoin.org"));
+		vSeeds.push_back(CDNSSeedData("explorer.gossipcoin.org", "explorer.gossipcoin.org"));
+		vSeeds.push_back(CDNSSeedData("explorer.gossipcoin.net", "explorer.gossipcoin.net"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 30 + 8);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 121 + 17);
