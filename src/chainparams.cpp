@@ -163,10 +163,10 @@ public:
         assert(hashGenesisBlock == uint256("0x00000de6a05a95fb27a241808eb19636411f91455cb56f9dbb76e04cad966550"));
         assert(genesis.hashMerkleRoot == uint256("0xcbc9930b999fcd422cc3973934beaccbc34168f0ff9279cefa52ff19907d72ce"));
 
-        vSeeds.push_back(CDNSSeedData("gossipcoin.org", "s0.gossipcoin.org"));
-        vSeeds.push_back(CDNSSeedData("gossipcoin.org", "s1.gossipcoin.org"));
-    	vSeeds.push_back(CDNSSeedData("gossipcoin.org", "s2.gossipcoin.org"));
-        vSeeds.push_back(CDNSSeedData("gossipcoin.org", "s3.gossipcoin.org"));
+        vSeeds.push_back(CDNSSeedData("s0.gossipcoin.org", "s0.gossipcoin.org"));
+        vSeeds.push_back(CDNSSeedData("s1.gossipcoin.org", "s1.gossipcoin.org"));
+    	vSeeds.push_back(CDNSSeedData("s2.gossipcoin.org", "s2.gossipcoin.org"));
+        vSeeds.push_back(CDNSSeedData("s3.gossipcoin.org", "s3.gossipcoin.org"));
 		vSeeds.push_back(CDNSSeedData("explorer.gossipcoin.org", "explorer.gossipcoin.org"));
 		vSeeds.push_back(CDNSSeedData("explorer.gossipcoin.net", "explorer.gossipcoin.net"));
 
