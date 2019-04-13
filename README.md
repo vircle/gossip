@@ -34,12 +34,24 @@
 | Requirement   | Details              |
 |---------------|----------------------|
 | Maturity      | 120 Minutes          |
-| Amount        | 100 GOS (per Input)  |
+| Amount        | 100 GOSS (per Input) |
 | Wallet        | Unlocked for Staking |
 
 ## Rewards
 
 ![GOSSIP Rewards](https://i.imgur.com/j5U5kEP.png)
+
+## Release Notes
+
+### Version 2.1.0 - 14/04/2019
+
+* Feature: Add proposals via wallet GUI
+* Fix: Spork keys
+* Fix: Block time from 60 seconds to 90 seconds
+
+### Version 2.0.0 - 17/03/2019
+
+* Initial Release
 
 ### We forked this code from the [PHORE](https://phore.io/) project. Thank you.
 
