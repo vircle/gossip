@@ -43,13 +43,13 @@
 
 ## Release Notes
 
-### Version 2.1.0 - 14/04/2019
+### Version 2.1.0 - 15/04/2019
 
 * Feature: Add proposals via wallet GUI
 * Fix: Spork keys correction
-* Fix: Increasing protocol version from 79780 to 79781
 * Fix: Block time from 60 seconds to 90 seconds at block 100k
 * Fix: Reduced max. outbound connections from 24 to 16 to reduce traffic
+* Add: Increasing protocol version from 79780 to 79781
 
 ### Version 2.0.0 - 17/03/2019
 
