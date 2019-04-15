@@ -169,8 +169,8 @@ UniValue preparebudget(const UniValue& params, bool fHelp)
             "\nResult:\n"
             "\"xxxx\"       (string) proposal fee hash (if successful) or error message (if failed)\n"
             "\nExamples:\n" +
-            HelpExampleCli("preparebudget", "\"test-proposal\" \"https://blockchaintalk.pro/gossip/t/test-proposal\" 2 820800 \"G9oc6C3dttUbv8zd7zGNq1qKBGf4ZQ1XEE\" 500") +
-            HelpExampleRpc("preparebudget", "\"test-proposal\" \"https://blockchaintalk.pro/gossip/t/test-proposal\" 2 820800 \"G9oc6C3dttUbv8zd7zGNq1qKBGf4ZQ1XEE\" 500"));
+            HelpExampleCli("preparebudget", "\"test-proposal\" \"https://blockchaintalk.pro/proposals-for-the-development-f11\" 2 820800 \"GaQ3S5v2n4d5w5GPPJvAAHK3LVDD5pj6ab\" 500") +
+            HelpExampleRpc("preparebudget", "\"test-proposal\" \"https://blockchaintalk.pro/proposals-for-the-development-f11\" 2 820800 \"GaQ3S5v2n4d5w5GPPJvAAHK3LVDD5pj6ab\" 500"));
 
     LOCK2(cs_main, pwalletMain->cs_wallet);
 
@@ -267,8 +267,8 @@ UniValue submitbudget(const UniValue& params, bool fHelp)
             "\nResult:\n"
             "\"xxxx\"       (string) proposal hash (if successful) or error message (if failed)\n"
             "\nExamples:\n" +
-            HelpExampleCli("submitbudget", "\"test-proposal\" \"https://blockchaintalk.pro/gossip/t/test-proposal\" 2 820800 \"D9oc6C3dttUbv8zd7zGNq1qKBGf4ZQ1XEE\" 500") +
-            HelpExampleRpc("submitbudget", "\"test-proposal\" \"https://blockchaintalk.pro/gossip/t/test-proposal\" 2 820800 \"D9oc6C3dttUbv8zd7zGNq1qKBGf4ZQ1XEE\" 500"));
+            HelpExampleCli("submitbudget", "\"test-proposal\" \"https://blockchaintalk.pro/proposals-for-the-development-f11\" 2 820800 \"GaQ3S5v2n4d5w5GPPJvAAHK3LVDD5pj6ab\" 500") +
+            HelpExampleRpc("submitbudget", "\"test-proposal\" \"https://blockchaintalk.pro/proposals-for-the-development-f11\" 2 820800 \"GaQ3S5v2n4d5w5GPPJvAAHK3LVDD5pj6ab\" 500"));
 
     // Check these inputs the same way we check the vote commands:
     // **********************************************************
@@ -735,15 +735,15 @@ UniValue getbudgetinfo(const UniValue& params, bool fHelp)
             "\nResult:\n"
             "[\n"
             "  {\n"
-            "    \"Name\": \"xxxx\",               (string) Proposal name\n"
-            "    \"URL\": \"xxxx\",                (string) Proposal URL\n"
-            "    \"Hash\": \"xxxx\",               (string) Proposal vote hash\n"
-            "    \"FeeHash\": \"xxxx\",            (string) Proposal fee hash\n"
+            "    \"Name\": \"xxxx\",             (string) Proposal name\n"
+            "    \"URL\": \"xxxx\",              (string) Proposal URL\n"
+            "    \"Hash\": \"xxxx\",             (string) Proposal vote hash\n"
+            "    \"FeeHash\": \"xxxx\",          (string) Proposal fee hash\n"
             "    \"BlockStart\": n,              (numeric) Proposal starting block\n"
             "    \"BlockEnd\": n,                (numeric) Proposal ending block\n"
             "    \"TotalPaymentCount\": n,       (numeric) Number of payments\n"
             "    \"RemainingPaymentCount\": n,   (numeric) Number of remaining payments\n"
-            "    \"PaymentAddress\": \"xxxx\",     (string) GOSSIP address of payment\n"
+            "    \"PaymentAddress\": \"xxxx\",   (string) GOSSIP address of payment\n"
             "    \"Ratio\": x.xxx,               (numeric) Ratio of yeas vs nays\n"
             "    \"Yeas\": n,                    (numeric) Number of yea votes\n"
             "    \"Nays\": n,                    (numeric) Number of nay votes\n"
@@ -752,7 +752,7 @@ UniValue getbudgetinfo(const UniValue& params, bool fHelp)
             "    \"MonthlyPayment\": xxx.xxx,    (numeric) Monthly payment amount\n"
             "    \"IsEstablished\": true|false,  (boolean) Established (true) or (false)\n"
             "    \"IsValid\": true|false,        (boolean) Valid (true) or Invalid (false)\n"
-            "    \"IsValidReason\": \"xxxx\",      (string) Error message, if any\n"
+            "    \"IsValidReason\": \"xxxx\",    (string) Error message, if any\n"
             "    \"fValid\": true|false,         (boolean) Valid (true) or Invalid (false)\n"
             "  }\n"
             "  ,...\n"
@@ -976,7 +976,12 @@ UniValue mnfinalbudget(const UniValue& params, bool fHelp)
         UniValue resultObj(UniValue::VOBJ);
 
         std::vector<CFinalizedBudget*> winningFbs = budget.GetFinalizedBudgets();
-        BOOST_FOREACH (CFinalizedBudget* finalizedBudget, winningFbs) {
+        BOOST_FOREACH(CFinalizedBudget* finalizedBudget, winningFbs)
+        {
+            // Ignore old finalized budgets to avoid displaying misleading error
+            // messages about missing proposals.  Include the previous final budget cycle.
+            if (finalizedBudget->GetBlockStart() < (chainActive.Tip()->nHeight - GetBudgetPaymentCycleBlocks())) continue;
+
             UniValue bObj(UniValue::VOBJ);
             bObj.push_back(Pair("FeeTX", finalizedBudget->nFeeTXHash.ToString()));
             bObj.push_back(Pair("Hash", finalizedBudget->GetHash().ToString()));

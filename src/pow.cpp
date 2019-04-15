@@ -36,10 +36,16 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
         return Params().ProofOfWorkLimit().GetCompact();
     }
 
-    if (pindexLast->nHeight > Params().LAST_POW_BLOCK()) {
+	if (pindexLast->nHeight > Params().LAST_POW_BLOCK()) {
         uint256 bnTargetLimit = (~uint256(0) >> 24);
-        int64_t nTargetSpacing = 60;
-        int64_t nTargetTimespan = 60 * 40;
+        int64_t nTargetSpacing = 90;       // GOSSIP: 90 seconds
+        int64_t nTargetTimespan = 60 * 30; // GOSSIP: 1800 seconds
+
+        // For accepting blocks before TargetSpacing and TargetTimespan change at block 100000
+        if (BlockLastSolved->nHeight < 100000) {
+            nTargetSpacing = 60;       // GOSSIP: 60 seconds
+            nTargetTimespan = 60 * 40; // GOSSIP: 2400 seconds
+        }
 
         int64_t nActualSpacing = 0;
         if (pindexLast->nHeight != 0)
@@ -57,10 +63,10 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
         bnNew *= ((nInterval - 1) * nTargetSpacing + nActualSpacing + nActualSpacing);
         bnNew /= ((nInterval + 1) * nTargetSpacing);
 
-        if (bnNew <= 0 || bnNew > bnTargetLimit)
-            bnNew = bnTargetLimit;
+    if (bnNew <= 0 || bnNew > bnTargetLimit)
+        bnNew = bnTargetLimit;
 
-        return bnNew.GetCompact();
+    return bnNew.GetCompact();
     }
 
     for (unsigned int i = 1; BlockReading && BlockReading->nHeight > 0; i++) {

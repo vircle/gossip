@@ -6737,12 +6737,13 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
 }
 
 // Note: whenever a protocol update is needed toggle between both implementations (comment out the formerly active one)
-//       so we can leave the existing clients untouched (old SPORK will stay on so they don't see even older clients).
-//       Those old clients won't react to the changes of the other (new) SPORK because at the time of their implementation
-//       it was the one which was commented out
+// so we can leave the existing clients untouched (old SPORK will stay on so they don't see even older clients).
+// Those old clients won't react to the changes of the other (new) SPORK because at the time of their implementation
+// it was the one which was commented out
 int ActiveProtocol()
 {
-    if (IsSporkActive(SPORK_18_NEW_PROTOCOL_ENFORCEMENT_3))
+    // SPORK_14 is used for 79781 (v2.1.0)
+    if (IsSporkActive(SPORK_14_NEW_PROTOCOL_ENFORCEMENT))
         return MIN_PEER_PROTO_VERSION_AFTER_ENFORCEMENT;
     return MIN_PEER_PROTO_VERSION_BEFORE_ENFORCEMENT;
 }
@@ -6752,7 +6753,6 @@ bool ProcessMessages(CNode* pfrom)
 {
     //if (fDebug)
     //    LogPrintf("ProcessMessages(%u messages)\n", pfrom->vRecvMsg.size());
-
     //
     // Message format
     //  (4) message start
@@ -6782,7 +6782,6 @@ bool ProcessMessages(CNode* pfrom)
         //    LogPrintf("ProcessMessages(message %u msgsz, %u bytes, complete:%s)\n",
         //            msg.hdr.nMessageSize, msg.vRecv.size(),
         //            msg.complete() ? "Y" : "N");
-
         // end, if an incomplete message is found
         if (!msg.complete())
             break;

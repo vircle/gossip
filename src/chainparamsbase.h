@@ -9,7 +9,7 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between gossip-cli and phored)
+ * CBaseChainParams defines the base parameters (shared between gossip-cli and gossipd)
  * of a given instance of the GOSSIP system.
  */
 class CBaseChainParams
