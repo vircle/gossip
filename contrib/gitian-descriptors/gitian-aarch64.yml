@@ -1,5 +1,5 @@
 ---
-name: "gossip-aarch64-2.0"
+name: "gossip-aarch64-2.1"
 enable_cache: true
 suites:
 - "trusty"

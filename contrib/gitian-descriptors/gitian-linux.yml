@@ -1,5 +1,5 @@
 ---
-name: "gossip-linux-2.0"
+name: "gossip-linux-2.1"
 enable_cache: true
 suites:
 - "trusty"
