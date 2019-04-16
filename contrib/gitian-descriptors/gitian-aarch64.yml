@@ -2,19 +2,19 @@
 name: "gossip-aarch64-2.1"
 enable_cache: true
 suites:
-- "trusty"
+- "bionic"
 architectures:
 - "amd64"
 packages:
 - "curl"
 - "g++-aarch64-linux-gnu"
-- "g++-4.9-aarch64-linux-gnu"
-- "gcc-4.9-aarch64-linux-gnu"
+- "g++-7-aarch64-linux-gnu"
+- "gcc-7-aarch64-linux-gnu"
 - "binutils-aarch64-linux-gnu"
-- "g++-4.9-multilib"
-- "gcc-4.9-multilib"
+- "g++-7-multilib"
+- "gcc-7-multilib"
 - "binutils-gold"
-- "git-core"
+- "git"
 - "pkg-config"
 - "autoconf"
 - "libtool"
@@ -23,7 +23,7 @@ packages:
 - "bsdmainutils"
 - "ca-certificates"
 - "python"
-reference_datetime: "2019-03-05 00:00:00"
+reference_datetime: "2019-04-16 00:00:00"
 remotes:
 - "url": "https://bitbucket.org/GOSSIPCOIN/gossip.git"
   "dir": "gossip"
