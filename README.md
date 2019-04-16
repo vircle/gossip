@@ -43,10 +43,11 @@
 
 ## Release Notes
 
-### Version 2.1.0 - 15/04/2019
+### Version 2.1.0 - 16/04/2019
 
 * Feature: Add proposals via wallet GUI
 * Fix: Spork keys correction
+* Fix: Update Gitian building from trusty to bionic
 * Fix: Block time from 60 seconds to 90 seconds at block 100k
 * Fix: Reduced max. outbound connections from 24 to 16 to reduce traffic
 * Add: Increasing protocol version from 79780 to 79781
