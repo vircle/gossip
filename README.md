@@ -9,8 +9,10 @@
 - Decentralized blockchain voting utilizing Masternode technology to form a DAO. The blockchain will distribute monthly treasury funds based on successful proposals submitted by the community and voted on by the DAO.
 
 ***
-
 ## [Website](https://gossipcoin.net) | [Forum](https://blockchaintalk.pro) | [Discord](https://discord.gg/54vDcgX) | [Telegram](https://t.me/gossipcoin) | [Twitter](https://twitter.com/gossip_core)
+
+***
+## [Here you can find actual bootstrap files for a quick sync](https://bootstrap.gossipcoin.net)
 
 ***
 
