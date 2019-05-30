@@ -41,7 +41,7 @@
 
 ## Rewards
 
-![GOSSIP Rewards](https://i.imgur.com/j5U5kEP.png)
+![GOSSIP Rewards](https://i.imgur.com/H3PYdFU.png)
 
 ## Release Notes
 
