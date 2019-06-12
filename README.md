@@ -45,7 +45,7 @@
 
 ## Release Notes
 
-### Version 2.1.0 - 12/06/2019
+### Version 2.1.1 - 12/06/2019
 
 * Fix icons update
 * Fix directory cleanup
