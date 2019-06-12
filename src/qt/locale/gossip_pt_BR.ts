@@ -430,7 +430,7 @@
         <translation>Mostrar informação sobre Qt</translation>
     </message>
     <message>
-        <source>&amp;Options...</source>
+        <source>&amp;Options</source>
         <translation>&amp;Opções...</translation>
     </message>
     <message>
@@ -442,7 +442,7 @@
         <translation>Mostrar ou esconder a janela principal</translation>
     </message>
     <message>
-        <source>&amp;Encrypt Wallet...</source>
+        <source>&amp;Encrypt Wallet</source>
         <translation>&amp;Criptografar carteira</translation>
     </message>
     <message>
@@ -450,7 +450,7 @@
         <translation>Criptografar as chaves privadas que pertencem à sua carteira</translation>
     </message>
     <message>
-        <source>&amp;Backup Wallet...</source>
+        <source>&amp;Backup Wallet</source>
         <translation>&amp;Carteira de backup...</translation>
     </message>
     <message>
@@ -458,7 +458,7 @@
         <translation>Backup da carteira em outro local</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
+        <source>&amp;Change Passphrase</source>
         <translation>&amp;Alterar palavra-chave...</translation>
     </message>
     <message>
@@ -466,7 +466,7 @@
         <translation>Altera a palavra-chave utilizada para encriptação da carteira</translation>
     </message>
     <message>
-        <source>&amp;Unlock Wallet...</source>
+        <source>&amp;Unlock Wallet</source>
         <translation>&amp;Destravar carteira...</translation>
     </message>
     <message>
@@ -478,11 +478,11 @@
         <translation>&amp;Travar carteira</translation>
     </message>
     <message>
-        <source>Sign &amp;message...</source>
+        <source>Sign &amp;message</source>
         <translation>Assinar &amp;mensagem...</translation>
     </message>
     <message>
-        <source>&amp;Verify message...</source>
+        <source>&amp;Verify message</source>
         <translation>&amp;Verificar mensagem...</translation>
     </message>
     <message>
@@ -538,7 +538,7 @@
         <translation>Mostrar backups de carteira criados automaticamente</translation>
     </message>
     <message>
-        <source>&amp;Sending addresses...</source>
+        <source>&amp;Sending addresses</source>
         <translation>&amp;Endereços de envio...</translation>
     </message>
     <message>
@@ -546,7 +546,7 @@
         <translation>Mostrar a lista de endereços de envio e rótulos utilizados</translation>
     </message>
     <message>
-        <source>&amp;Receiving addresses...</source>
+        <source>&amp;Receiving addresses</source>
         <translation>&amp;Endereços de recebimento...</translation>
     </message>
     <message>
@@ -554,8 +554,8 @@
         <translation>Mostrar a lista de endereços de recebimento e rótulos utilizados</translation>
     </message>
     <message>
-        <source>Open &amp;URI...</source>
-        <translation>Abrir &amp;URI...</translation>
+        <source>Open &amp;URI</source>
+        <translation>Abrir &amp;URI</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -594,7 +594,7 @@
         <translation>Enviar moedas para um endereço GOSSIP</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and gossip: URIs)</source>
+        <source>Request payments</source>
         <translation>Requisitar pagamentos (gera códigos QR e gossip: URIs)</translation>
     </message>
     <message>
@@ -674,19 +674,19 @@
         <translation>Cliente Core GOSSIP</translation>
     </message>
     <message>
-        <source>Synchronizing with network...</source>
+        <source>Synchronizing with network</source>
         <translation>Sincronizando com a rede...</translation>
     </message>
     <message>
-        <source>Importing blocks from disk...</source>
+        <source>Importing blocks from disk</source>
         <translation>Importando blocos do disco...</translation>
     </message>
     <message>
-        <source>Reindexing blocks on disk...</source>
+        <source>Reindexing blocks on disk</source>
         <translation>Reindexando blocos no disco...</translation>
     </message>
     <message>
-        <source>No block source available...</source>
+        <source>No block source available</source>
         <translation>Nenhuma fonte de blocos disponível...</translation>
     </message>
     <message>
@@ -702,7 +702,7 @@
         <translation>%1 atrás</translation>
     </message>
     <message>
-        <source>Catching up...</source>
+        <source>Catching up</source>
         <translation>Correndo atrás...</translation>
     </message>
     <message>
@@ -1966,7 +1966,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
 <context>
     <name>QRImageWidget</name>
     <message>
-        <source>&amp;Save Image...</source>
+        <source>&amp;Save Image</source>
         <translation>&amp;Salvar imagem...</translation>
     </message>
     <message>
@@ -2213,7 +2213,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Desconhecido</translation>
     </message>
     <message>
-        <source>Fetching...</source>
+        <source>Fetching</source>
         <translation>buscando...</translation>
     </message>
 </context>
@@ -2291,7 +2291,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Copiar &amp;URI</translation>
     </message>
     <message>
-        <source>&amp;Save Image...</source>
+        <source>&amp;Save Image</source>
         <translation>&amp;Salvar imagem...</translation>
     </message>
     <message>
@@ -2433,7 +2433,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Taxa de transação:</translation>
     </message>
     <message>
-        <source>Choose...</source>
+        <source>Choose</source>
         <translation>Escolha...</translation>
     </message>
     <message>
@@ -2715,7 +2715,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>GOSSIP Core is shutting down...</source>
+        <source>GOSSIP Core is shutting down</source>
         <translation>GOSSIP Core está desligando...</translation>
     </message>
     <message>
@@ -3204,7 +3204,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Esse ano</translation>
     </message>
     <message>
-        <source>Range...</source>
+        <source>Range</source>
         <translation>Alcance...</translation>
     </message>
     <message>
@@ -3670,7 +3670,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Encontrou usuários suficientes, autenticando (aguardando %s)</translation>
     </message>
     <message>
-        <source>Found enough users, signing ...</source>
+        <source>Found enough users, signing </source>
         <translation>Encontrou usuários suficientes, autenticando...</translation>
     </message>
     <message>
@@ -3682,7 +3682,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Quantos blocos verificar na inicialização (padrão: %u, 0 = todos)</translation>
     </message>
     <message>
-        <source>Importing...</source>
+        <source>Importing</source>
         <translation>Importando...</translation>
     </message>
     <message>
@@ -3770,19 +3770,19 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Linha: %d</translation>
     </message>
     <message>
-        <source>Loading addresses...</source>
+        <source>Loading addresses</source>
         <translation>Carregando endereços...</translation>
     </message>
     <message>
-        <source>Loading block index...</source>
+        <source>Loading block index</source>
         <translation>Carregando índice de blocos...</translation>
     </message>
     <message>
-        <source>Loading masternode cache...</source>
+        <source>Loading masternode cache</source>
         <translation>Carregando cachê do masternode...</translation>
     </message>
     <message>
-        <source>Loading masternode payment cache...</source>
+        <source>Loading masternode payment cache</source>
         <translation>Carregando o cachê de pagamento do masternode...</translation>
     </message>
     <message>
@@ -3790,7 +3790,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Carregando carteira... (%3.2f %%)</translation>
     </message>
     <message>
-        <source>Loading wallet...</source>
+        <source>Loading wallet</source>
         <translation>Carregando carteira...</translation>
     </message>
     <message>
@@ -3814,7 +3814,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Masternode:</translation>
     </message>
     <message>
-        <source>Mixing in progress...</source>
+        <source>Mixing in progress</source>
         <translation>Embaralhamento em progresso.</translation>
     </message>
     <message>
@@ -3886,7 +3886,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Receber e mostrar alertas da rede P2P (padrão: %u)</translation>
     </message>
     <message>
-        <source>Rescanning...</source>
+        <source>Rescanning</source>
         <translation>Reescaneando...</translation>
     </message>
     <message>
@@ -3994,11 +3994,11 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Sincronização concluída</translation>
     </message>
     <message>
-        <source>Synchronization pending...</source>
+        <source>Synchronization pending</source>
         <translation>Sincronização pendente...</translation>
     </message>
     <message>
-        <source>Synchronizing masternodes...</source>
+        <source>Synchronizing masternodes</source>
         <translation>Sincronizando masternodes...</translation>
     </message>
     <message>
@@ -4074,11 +4074,11 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Valor maior que o máximo permitido pela pool de Ofuscação </translation>
     </message>
     <message>
-        <source>Verifying blocks...</source>
+        <source>Verifying blocks</source>
         <translation>Verificando blocos...</translation>
     </message>
     <message>
-        <source>Verifying wallet...</source>
+        <source>Verifying wallet</source>
         <translation>Verificando carteira...</translation>
     </message>
     <message>
@@ -4114,7 +4114,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Aviso: Argumento não suportado -debugnet ignorado, use -debug=net.</translation>
     </message>
     <message>
-        <source>Will retry...</source>
+        <source>Will retry</source>
         <translation>Tentando novamente...</translation>
     </message>
     <message>
@@ -4130,7 +4130,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Sua transação foi aceita na pool!</translation>
     </message>
     <message>
-        <source>Zapping all transactions from wallet...</source>
+        <source>Zapping all transactions from wallet</source>
         <translation>Eliminando todas as transações da carteira...</translation>
     </message>
     <message>

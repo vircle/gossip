@@ -442,7 +442,7 @@
         <translation>Information om Qt</translation>
     </message>
     <message>
-        <source>&amp;Options...</source>
+        <source>&amp;Options</source>
         <translation>&amp;Indstillinger</translation>
     </message>
     <message>
@@ -454,7 +454,7 @@
         <translation>Vis eller skjul hovedvinduet.</translation>
     </message>
     <message>
-        <source>&amp;Encrypt Wallet...</source>
+        <source>&amp;Encrypt Wallet</source>
         <translation>&amp;Kryptografer tegnebog</translation>
     </message>
     <message>
@@ -462,7 +462,7 @@
         <translation>Krypter den private nøgle som hører til tegnebogen.</translation>
     </message>
     <message>
-        <source>&amp;Backup Wallet...</source>
+        <source>&amp;Backup Wallet</source>
         <translation>&amp;Sikkerhedskopier tegnebog</translation>
     </message>
     <message>
@@ -470,7 +470,7 @@
         <translation>Sikkerhedskopier og gem et andet sted</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
+        <source>&amp;Change Passphrase</source>
         <translation>&amp;Skift kodeord</translation>
     </message>
     <message>
@@ -478,7 +478,7 @@
         <translation>Skift kodeordet til kryptografering af tegnebog</translation>
     </message>
     <message>
-        <source>&amp;Unlock Wallet...</source>
+        <source>&amp;Unlock Wallet</source>
         <translation>&amp;Lås tegnebogen op</translation>
     </message>
     <message>
@@ -490,11 +490,11 @@
         <translation>&amp;Lås tegnebogen</translation>
     </message>
     <message>
-        <source>Sign &amp;message...</source>
+        <source>Sign &amp;message</source>
         <translation>Underskriv &amp; besked</translation>
     </message>
     <message>
-        <source>&amp;Verify message...</source>
+        <source>&amp;Verify message</source>
         <translation>&amp;verificer besked</translation>
     </message>
     <message>
@@ -550,7 +550,7 @@
         <translation>Vis sikkerhedskopier, der er taget automatisk</translation>
     </message>
     <message>
-        <source>&amp;Sending addresses...</source>
+        <source>&amp;Sending addresses</source>
         <translation>&amp;Afsenderadresser</translation>
     </message>
     <message>
@@ -558,7 +558,7 @@
         <translation>Vis listen over brugte afsenderadresse med tilhørende tekst.</translation>
     </message>
     <message>
-        <source>&amp;Receiving addresses...</source>
+        <source>&amp;Receiving addresses</source>
         <translation>&amp;Modtageradresse</translation>
     </message>
     <message>
@@ -566,7 +566,7 @@
         <translation>Vis listen over brugte modtageradresser og tekst</translation>
     </message>
     <message>
-        <source>Open &amp;URI...</source>
+        <source>Open &amp;URI</source>
         <translation>Åbn &amp;URL</translation>
     </message>
     <message>
@@ -606,7 +606,7 @@
         <translation>Send mønter til en GOSSIP adresse</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and gossip: URIs)</source>
+        <source>Request payments</source>
         <translation>Anmod om betaling (genrerer QR kode og GOSSIP URL)</translation>
     </message>
     <message>
@@ -686,19 +686,19 @@
         <translation>GOSSIP kerneklient</translation>
     </message>
     <message>
-        <source>Synchronizing with network...</source>
+        <source>Synchronizing with network</source>
         <translation>Synkroniserer med netværket</translation>
     </message>
     <message>
-        <source>Importing blocks from disk...</source>
+        <source>Importing blocks from disk</source>
         <translation>Importerer blokke fra disken</translation>
     </message>
     <message>
-        <source>Reindexing blocks on disk...</source>
+        <source>Reindexing blocks on disk</source>
         <translation>Indekserer blokke på disken</translation>
     </message>
     <message>
-        <source>No block source available...</source>
+        <source>No block source available</source>
         <translation>Der er ingen blokkilde tilgængelig</translation>
     </message>
     <message>
@@ -714,7 +714,7 @@
         <translation>%1 bagud</translation>
     </message>
     <message>
-        <source>Catching up...</source>
+        <source>Catching up</source>
         <translation>Samler op</translation>
     </message>
     <message>
@@ -2138,7 +2138,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
 <context>
     <name>QRImageWidget</name>
     <message>
-        <source>&amp;Save Image...</source>
+        <source>&amp;Save Image</source>
         <translation>&amp;Gem billede</translation>
     </message>
     <message>
@@ -2445,7 +2445,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Ukendt</translation>
     </message>
     <message>
-        <source>Fetching...</source>
+        <source>Fetching</source>
         <translation>Henter</translation>
     </message>
 </context>
@@ -2551,7 +2551,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Kopier &amp;Adresse</translation>
     </message>
     <message>
-        <source>&amp;Save Image...</source>
+        <source>&amp;Save Image</source>
         <translation>&amp;Gem billede</translation>
     </message>
     <message>
@@ -2705,7 +2705,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Transaktionsgebyr:</translation>
     </message>
     <message>
-        <source>Choose...</source>
+        <source>Choose</source>
         <translation>Vælg</translation>
     </message>
     <message>
@@ -3019,7 +3019,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>GOSSIP Core is shutting down...</source>
+        <source>GOSSIP Core is shutting down</source>
         <translation>GOSSIP kernen lukker ned</translation>
     </message>
     <message>
@@ -3548,7 +3548,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Dette år </translation>
     </message>
     <message>
-        <source>Range...</source>
+        <source>Range</source>
         <translation>Område</translation>
     </message>
     <message>
@@ -4303,7 +4303,7 @@ For eksempel: alertnotify=Echo %% | mail - s "GOSSIP ALARM!" e-mail@administrato
         <translation>Der er fundet tilstrækkeligt med brugere der underskriver (venter %s)</translation>
     </message>
     <message>
-        <source>Found enough users, signing ...</source>
+        <source>Found enough users, signing </source>
         <translation>Der er fundet tilstrækkeligt med brugere der underskriver...</translation>
     </message>
     <message>
@@ -4319,7 +4319,7 @@ For eksempel: alertnotify=Echo %% | mail - s "GOSSIP ALARM!" e-mail@administrato
         <translation>Hvis &lt;category&gt; ikke findes, sendes al debug information som output.</translation>
     </message>
     <message>
-        <source>Importing...</source>
+        <source>Importing</source>
         <translation>Importerer</translation>
     </message>
     <message>
@@ -4443,23 +4443,23 @@ For eksempel: alertnotify=Echo %% | mail - s "GOSSIP ALARM!" e-mail@administrato
         <translation>Lyt efter forbindelser på port &lt;port&gt; (default: %u or tesntet: %u)</translation>
     </message>
     <message>
-        <source>Loading addresses...</source>
+        <source>Loading addresses</source>
         <translation>Indlæser adresser</translation>
     </message>
     <message>
-        <source>Loading block index...</source>
+        <source>Loading block index</source>
         <translation>Indlæser blokindeks</translation>
     </message>
     <message>
-        <source>Loading budget cache...</source>
+        <source>Loading budget cache</source>
         <translation>Indlæser budgetcache...</translation>
     </message>
     <message>
-        <source>Loading masternode cache...</source>
+        <source>Loading masternode cache</source>
         <translation>Indlæser masternodecache...</translation>
     </message>
     <message>
-        <source>Loading masternode payment cache...</source>
+        <source>Loading masternode payment cache</source>
         <translation>Indlæser masternode betalingscache...</translation>
     </message>
     <message>
@@ -4467,7 +4467,7 @@ For eksempel: alertnotify=Echo %% | mail - s "GOSSIP ALARM!" e-mail@administrato
         <translation>Indlæser tegnebog... (%3.2f%%)</translation>
     </message>
     <message>
-        <source>Loading wallet...</source>
+        <source>Loading wallet</source>
         <translation>Indlæser tegnebog</translation>
     </message>
     <message>
@@ -4507,7 +4507,7 @@ For eksempel: alertnotify=Echo %% | mail - s "GOSSIP ALARM!" e-mail@administrato
         <translation>Manglende transaktionsinformationsinput</translation>
     </message>
     <message>
-        <source>Mixing in progress...</source>
+        <source>Mixing in progress</source>
         <translation>Usynliggørelse i gang</translation>
     </message>
     <message>
@@ -4627,7 +4627,7 @@ For eksempel: alertnotify=Echo %% | mail - s "GOSSIP ALARM!" e-mail@administrato
         <translation>Genskan blokkæden for manglende transaktioner i tegnebogen</translation>
     </message>
     <message>
-        <source>Rescanning...</source>
+        <source>Rescanning</source>
         <translation>Genskanner...</translation>
     </message>
     <message>
@@ -4771,23 +4771,23 @@ For eksempel: alertnotify=Echo %% | mail - s "GOSSIP ALARM!" e-mail@administrato
         <translation>Synkronisering færdig</translation>
     </message>
     <message>
-        <source>Synchronization pending...</source>
+        <source>Synchronization pending</source>
         <translation>Synkronisering venter</translation>
     </message>
     <message>
-        <source>Synchronizing budgets...</source>
+        <source>Synchronizing budgets</source>
         <translation>Synkronisere budgetter</translation>
     </message>
     <message>
-        <source>Synchronizing masternode winners...</source>
+        <source>Synchronizing masternode winners</source>
         <translation>Synkroniserer masternodevinnere</translation>
     </message>
     <message>
-        <source>Synchronizing masternodes...</source>
+        <source>Synchronizing masternodes</source>
         <translation>Synkroniserer masternoder...</translation>
     </message>
     <message>
-        <source>Synchronizing sporks...</source>
+        <source>Synchronizing sporks</source>
         <translation>Synkroniserer sporks...</translation>
     </message>
     <message>
@@ -4887,11 +4887,11 @@ For eksempel: alertnotify=Echo %% | mail - s "GOSSIP ALARM!" e-mail@administrato
         <translation>Værdien er højere end tilsløringsgruppen tillader</translation>
     </message>
     <message>
-        <source>Verifying blocks...</source>
+        <source>Verifying blocks</source>
         <translation>Verificerer blokke</translation>
     </message>
     <message>
-        <source>Verifying wallet...</source>
+        <source>Verifying wallet</source>
         <translation>Verificerer  tegnebog</translation>
     </message>
     <message>
@@ -4931,7 +4931,7 @@ For eksempel: alertnotify=Echo %% | mail - s "GOSSIP ALARM!" e-mail@administrato
         <translation>Advarsel! Argumentet -debugnet understøttes ikke og blev ignoret. Brug -debug=net.</translation>
     </message>
     <message>
-        <source>Will retry...</source>
+        <source>Will retry</source>
         <translation>Prøver igen</translation>
     </message>
     <message>
@@ -4947,7 +4947,7 @@ For eksempel: alertnotify=Echo %% | mail - s "GOSSIP ALARM!" e-mail@administrato
         <translation>Transaktionen blev accepteret af POOL!</translation>
     </message>
     <message>
-        <source>Zapping all transactions from wallet...</source>
+        <source>Zapping all transactions from wallet</source>
         <translation>Skifter alle transaktioner i tegnebogen.</translation>
     </message>
     <message>

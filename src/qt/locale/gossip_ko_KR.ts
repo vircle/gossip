@@ -442,7 +442,7 @@
         <translation>Qt에 대한 정보 표시</translation>
     </message>
     <message>
-        <source>&amp;Options...</source>
+        <source>&amp;Options</source>
         <translation>&amp;옵션...</translation>
     </message>
     <message>
@@ -454,7 +454,7 @@
         <translation>기본 창 보이기 또는 숨기기</translation>
     </message>
     <message>
-        <source>&amp;Encrypt Wallet...</source>
+        <source>&amp;Encrypt Wallet</source>
         <translation>&amp;지갑 암호화...</translation>
     </message>
     <message>
@@ -462,7 +462,7 @@
         <translation>지갑 개인 키 암호화</translation>
     </message>
     <message>
-        <source>&amp;Backup Wallet...</source>
+        <source>&amp;Backup Wallet</source>
         <translation>&amp;지갑 백업</translation>
     </message>
     <message>
@@ -470,7 +470,7 @@
         <translation>다른 위치에 지갑 백업</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
+        <source>&amp;Change Passphrase</source>
         <translation>&amp;암호 변경...</translation>
     </message>
     <message>
@@ -478,7 +478,7 @@
         <translation>지갑 암호화에 사용되는 암호 변경</translation>
     </message>
     <message>
-        <source>&amp;Unlock Wallet...</source>
+        <source>&amp;Unlock Wallet</source>
         <translation>&amp;지갑 잠금해제...</translation>
     </message>
     <message>
@@ -490,11 +490,11 @@
         <translation>&amp;지갑 잠금</translation>
     </message>
     <message>
-        <source>Sign &amp;message...</source>
+        <source>Sign &amp;message</source>
         <translation>메세지 &amp;서명...</translation>
     </message>
     <message>
-        <source>&amp;Verify message...</source>
+        <source>&amp;Verify message</source>
         <translation>&amp;메시지 확인...</translation>
     </message>
     <message>
@@ -550,7 +550,7 @@
         <translation>자동 생성된 지갑 백업 표시</translation>
     </message>
     <message>
-        <source>&amp;Sending addresses...</source>
+        <source>&amp;Sending addresses</source>
         <translation>&amp;주소 보내는중...</translation>
     </message>
     <message>
@@ -558,7 +558,7 @@
         <translation>전송 된 주소 및 라벨 목록 표시</translation>
     </message>
     <message>
-        <source>&amp;Receiving addresses...</source>
+        <source>&amp;Receiving addresses</source>
         <translation>&amp;받는 주소...</translation>
     </message>
     <message>
@@ -566,7 +566,7 @@
         <translation>입금 된 주소 및 라벨 목록 표시</translation>
     </message>
     <message>
-        <source>Open &amp;URI...</source>
+        <source>Open &amp;URI</source>
         <translation>&amp;URI 열기...</translation>
     </message>
     <message>
@@ -610,7 +610,7 @@
         <translation>GOSSIP 주소로 전송하기</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and gossip: URIs)</source>
+        <source>Request payments</source>
         <translation>결제 요청 (QR 코드 및 gossip: URI 생성)</translation>
     </message>
     <message>
@@ -702,19 +702,19 @@
         <translation><numerusform>%n 개 GOSSIP 네트웍에 연결</numerusform></translation>
     </message>
     <message>
-        <source>Synchronizing with network...</source>
+        <source>Synchronizing with network</source>
         <translation>네트워크 동기화중...</translation>
     </message>
     <message>
-        <source>Importing blocks from disk...</source>
+        <source>Importing blocks from disk</source>
         <translation>디스크에서 블록 가져오기...</translation>
     </message>
     <message>
-        <source>Reindexing blocks on disk...</source>
+        <source>Reindexing blocks on disk</source>
         <translation>디스크 블록 재색인...</translation>
     </message>
     <message>
-        <source>No block source available...</source>
+        <source>No block source available</source>
         <translation>사용 가능한 블록 소스 없음...</translation>
     </message>
     <message>
@@ -746,7 +746,7 @@
         <translation>%1 남음</translation>
     </message>
     <message>
-        <source>Catching up...</source>
+        <source>Catching up</source>
         <translation>동기화 중...</translation>
     </message>
     <message>
@@ -2112,7 +2112,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>초기화</translation>
     </message>
     <message>
-        <source>Coin Control...</source>
+        <source>Coin Control</source>
         <translation>코인 컨트롤...</translation>
     </message>
     <message>
@@ -2411,7 +2411,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
     </message>
     <message>
         <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware. 
-Please be patient...</source>
+Please be patient</source>
         <translation>제로코인 생성 초기화 진행중... : 전체 블록체인을 다시 검색합니다. 하드웨어에 따라 최대 30분이 걸릴수 있습니다.
 기다려주세요...</translation>
     </message>
@@ -2468,7 +2468,7 @@ Please be patient...</source>
     <message>
         <source>Spending Zerocoin.
 Computationally expensive, might need several minutes depending on the selected Security Level and your hardware. 
-Please be patient...</source>
+Please be patient</source>
         <translation>제로코인 전송중입니다.
 시큐리티 레벨과 여러분의 하드웨어에 따라 수 분이 걸립니다.
 조금만 기다려주세요...</translation>
@@ -2572,7 +2572,7 @@ Please be patient...</source>
 <context>
     <name>QRImageWidget</name>
     <message>
-        <source>&amp;Save Image...</source>
+        <source>&amp;Save Image</source>
         <translation>이미지 &amp;저장...</translation>
     </message>
     <message>
@@ -2880,7 +2880,7 @@ Please be patient...</source>
         <translation>Unknown</translation>
     </message>
     <message>
-        <source>Fetching...</source>
+        <source>Fetching</source>
         <translation>가져오는 중...</translation>
     </message>
 </context>
@@ -2986,7 +2986,7 @@ Please be patient...</source>
         <translation>&amp;주소 복사</translation>
     </message>
     <message>
-        <source>&amp;Save Image...</source>
+        <source>&amp;Save Image</source>
         <translation>이미지 &amp;저장...</translation>
     </message>
     <message>
@@ -3140,7 +3140,7 @@ Please be patient...</source>
         <translation>트랜잭션 수수료:</translation>
     </message>
     <message>
-        <source>Choose...</source>
+        <source>Choose</source>
         <translation>선택...</translation>
     </message>
     <message>
@@ -3176,7 +3176,7 @@ Please be patient...</source>
         <translation>승인 시간:</translation>
     </message>
     <message>
-        <source>Open Coin Control...</source>
+        <source>Open Coin Control</source>
         <translation>코인 설정 열기...</translation>
     </message>
     <message>
@@ -3474,7 +3474,7 @@ Please be patient...</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>GOSSIP Core is shutting down...</source>
+        <source>GOSSIP Core is shutting down</source>
         <translation>GOSSIP Core가 종료됩니다...</translation>
     </message>
     <message>
@@ -4044,7 +4044,7 @@ Please be patient...</source>
         <translation>올해</translation>
     </message>
     <message>
-        <source>Range...</source>
+        <source>Range</source>
         <translation>범위...</translation>
     </message>
     <message>
@@ -4638,7 +4638,7 @@ rpcpassword=%s
         <translation>블록 생성 옵션:</translation>
     </message>
     <message>
-        <source>Calculating missing accumulators...</source>
+        <source>Calculating missing accumulators</source>
         <translation>누락된 누산기 계산중...</translation>
     </message>
     <message>
@@ -4858,7 +4858,7 @@ rpcpassword=%s
         <translation>충분한 사용자를 찾았습니다, 서명 중 ( %s 기다리는 중 )</translation>
     </message>
     <message>
-        <source>Found enough users, signing ...</source>
+        <source>Found enough users, signing </source>
         <translation>충분한 사용자를 찾았습니다, 서명 중 ...</translation>
     </message>
     <message>
@@ -4874,7 +4874,7 @@ rpcpassword=%s
         <translation>&lt;category&gt;가 제공되지 않으면, 모든 디버깅 정보를 출력합니다.</translation>
     </message>
     <message>
-        <source>Importing...</source>
+        <source>Importing</source>
         <translation>가져오는 중...</translation>
     </message>
     <message>
@@ -5086,27 +5086,27 @@ rpcpassword=%s
         <translation>&lt;port&gt;에서 연결 대기 (기본값: %u 또는 테스트넷: %u)</translation>
     </message>
     <message>
-        <source>Loading addresses...</source>
+        <source>Loading addresses</source>
         <translation>주소를 불러오는 중...</translation>
     </message>
     <message>
-        <source>Loading block index...</source>
+        <source>Loading block index</source>
         <translation>블록 인덱스를 불러오는 중...</translation>
     </message>
     <message>
-        <source>Loading budget cache...</source>
+        <source>Loading budget cache</source>
         <translation>budget 캐시를 불러오는 중...</translation>
     </message>
     <message>
-        <source>Loading masternode cache...</source>
+        <source>Loading masternode cache</source>
         <translation>마스터노드 캐시를 불러오는 중...</translation>
     </message>
     <message>
-        <source>Loading masternode payment cache...</source>
+        <source>Loading masternode payment cache</source>
         <translation>마스터노드 결제 캐시를 불러오는 중...</translation>
     </message>
     <message>
-        <source>Loading sporks...</source>
+        <source>Loading sporks</source>
         <translation>sporks 로딩중...</translation>
     </message>
     <message>
@@ -5114,7 +5114,7 @@ rpcpassword=%s
         <translation>지갑을 불러오는 중… (%3.2f %%)</translation>
     </message>
     <message>
-        <source>Loading wallet...</source>
+        <source>Loading wallet</source>
         <translation>지갑을 불러오는 중…</translation>
     </message>
     <message>
@@ -5154,7 +5154,7 @@ rpcpassword=%s
         <translation>트랜잭션 정보 입력에 누락된 부분이 있습니다.</translation>
     </message>
     <message>
-        <source>Mixing in progress...</source>
+        <source>Mixing in progress</source>
         <translation>믹싱이 진행 중입니다...</translation>
     </message>
     <message>
@@ -5282,7 +5282,7 @@ rpcpassword=%s
         <translation>누락된 지갑 트랜잭션에 대해 블록체인을 다시 스캔합니다</translation>
     </message>
     <message>
-        <source>Rescanning...</source>
+        <source>Rescanning</source>
         <translation>다시 스캔하는 중...</translation>
     </message>
     <message>
@@ -5438,23 +5438,23 @@ rpcpassword=%s
         <translation>동기화 완료</translation>
     </message>
     <message>
-        <source>Synchronization pending...</source>
+        <source>Synchronization pending</source>
         <translation>동기화 대기중...</translation>
     </message>
     <message>
-        <source>Synchronizing budgets...</source>
+        <source>Synchronizing budgets</source>
         <translation>budgets 동기화 중입니다...</translation>
     </message>
     <message>
-        <source>Synchronizing masternode winners...</source>
+        <source>Synchronizing masternode winners</source>
         <translation>마스터노드 승자를 동기화 중입니다...</translation>
     </message>
     <message>
-        <source>Synchronizing masternodes...</source>
+        <source>Synchronizing masternodes</source>
         <translation>마스터노드와 동기화중입니다...</translation>
     </message>
     <message>
-        <source>Synchronizing sporks...</source>
+        <source>Synchronizing sporks</source>
         <translation>sporks와 동기화 중입니다...</translation>
     </message>
     <message>
@@ -5562,11 +5562,11 @@ rpcpassword=%s
         <translation>난독화 풀의 최대 허용 값보다 높습니다.</translation>
     </message>
     <message>
-        <source>Verifying blocks...</source>
+        <source>Verifying blocks</source>
         <translation>블록 인증 중...</translation>
     </message>
     <message>
-        <source>Verifying wallet...</source>
+        <source>Verifying wallet</source>
         <translation>지갑 인증 중...</translation>
     </message>
     <message>
@@ -5606,7 +5606,7 @@ rpcpassword=%s
         <translation>경고 : 지원하지 않는 인수 -debugnet 무시됨 -debug=net를 사용하십시오.</translation>
     </message>
     <message>
-        <source>Will retry...</source>
+        <source>Will retry</source>
         <translation>다시 시도합니다...</translation>
     </message>
     <message>
@@ -5622,7 +5622,7 @@ rpcpassword=%s
         <translation>트랜잭션이 풀로 접수되었습니다!</translation>
     </message>
     <message>
-        <source>Zapping all transactions from wallet...</source>
+        <source>Zapping all transactions from wallet</source>
         <translation>지갑 내 모든 트랜잭션들을 재핑하는 중...</translation>
     </message>
     <message>

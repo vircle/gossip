@@ -447,7 +447,7 @@
         <translation>Toon informatie over Qt</translation>
     </message>
     <message>
-        <source>&amp;Options...</source>
+        <source>&amp;Options</source>
         <translation>&amp;Opties...</translation>
     </message>
     <message>
@@ -459,7 +459,7 @@
         <translation>Toon of verberg het hoofdvenster</translation>
     </message>
     <message>
-        <source>&amp;Encrypt Wallet...</source>
+        <source>&amp;Encrypt Wallet</source>
         <translation>Versleutel portemonnee</translation>
     </message>
     <message>
@@ -467,7 +467,7 @@
         <translation>Versleutel de geheime sleutels die bij uw portemonnee horen</translation>
     </message>
     <message>
-        <source>&amp;Backup Wallet...</source>
+        <source>&amp;Backup Wallet</source>
         <translation>Backup Portemonnee...</translation>
     </message>
     <message>
@@ -475,7 +475,7 @@
         <translation>Backup portemonnee naar een andere locatie</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
+        <source>&amp;Change Passphrase</source>
         <translation>&amp;Wijzig Wachtwoord...</translation>
     </message>
     <message>
@@ -483,7 +483,7 @@
         <translation>Wijzig het wachtwoord voor uw portemonneversleuteling</translation>
     </message>
     <message>
-        <source>&amp;Unlock Wallet...</source>
+        <source>&amp;Unlock Wallet</source>
         <translation>&amp;Open portemonnee...</translation>
     </message>
     <message>
@@ -495,11 +495,11 @@
         <translation>&amp;Sluit portemonnee</translation>
     </message>
     <message>
-        <source>Sign &amp;message...</source>
+        <source>Sign &amp;message</source>
         <translation>Bericht &amp;Ondertekenen...</translation>
     </message>
     <message>
-        <source>&amp;Verify message...</source>
+        <source>&amp;Verify message</source>
         <translation>Bericht &amp;Verifiëren... </translation>
     </message>
     <message>
@@ -555,7 +555,7 @@
         <translation>Toon automatisch aangemaakte portemonnee backups</translation>
     </message>
     <message>
-        <source>&amp;Sending addresses...</source>
+        <source>&amp;Sending addresses</source>
         <translation>&amp;Verzendadressen...</translation>
     </message>
     <message>
@@ -563,7 +563,7 @@
         <translation>Toon de lijst van verzendadressen en labels</translation>
     </message>
     <message>
-        <source>&amp;Receiving addresses...</source>
+        <source>&amp;Receiving addresses</source>
         <translation>&amp;Ontvangstadressen...</translation>
     </message>
     <message>
@@ -571,8 +571,8 @@
         <translation>Toon de lijst van ontvangstadressen en labels</translation>
     </message>
     <message>
-        <source>Open &amp;URI...</source>
-        <translation>Open &amp;URI...</translation>
+        <source>Open &amp;URI</source>
+        <translation>Open &amp;URI</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -615,7 +615,7 @@
         <translation>Verstuur munten naar een GOSSIP adres</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and gossip: URIs)</source>
+        <source>Request payments</source>
         <translation>Vraag betaling aan (genereert QR-codes en GOSSIP: URI's)</translation>
     </message>
     <message>
@@ -707,19 +707,19 @@
         <translation><numerusform>%n actieve verbinding naar het GOSSIP netwerk</numerusform><numerusform>%n actieve verbinding(en) naar het GOSSIP netwerk</numerusform></translation>
     </message>
     <message>
-        <source>Synchronizing with network...</source>
+        <source>Synchronizing with network</source>
         <translation>Synchroniseren met het netwerk...</translation>
     </message>
     <message>
-        <source>Importing blocks from disk...</source>
+        <source>Importing blocks from disk</source>
         <translation>Blocks aan het importeren vanaf schijf...</translation>
     </message>
     <message>
-        <source>Reindexing blocks on disk...</source>
+        <source>Reindexing blocks on disk</source>
         <translation>Blocks opnieuw aan het indexeren op de schijf...</translation>
     </message>
     <message>
-        <source>No block source available...</source>
+        <source>No block source available</source>
         <translation>Geen blockbron beschikbaar</translation>
     </message>
     <message>
@@ -763,7 +763,7 @@
         <translation>%1 achter</translation>
     </message>
     <message>
-        <source>Catching up...</source>
+        <source>Catching up</source>
         <translation>Aan het bijwerken...</translation>
     </message>
     <message>
@@ -851,7 +851,7 @@ MultiSend: %1</translation>
         <translation>Privacyacties voor zGOSS</translation>
     </message>
     <message>
-        <source>&amp;Multisignature creation...</source>
+        <source>&amp;Multisignature creation</source>
         <translation>&amp;Multisignatuur creëren...</translation>
     </message>
     <message>
@@ -859,7 +859,7 @@ MultiSend: %1</translation>
         <translation>Maak een nieuw multisignatuur-adres en voeg het toe aan deze portemonnee</translation>
     </message>
     <message>
-        <source>&amp;Multisignature spending...</source>
+        <source>&amp;Multisignature spending</source>
         <translation>&amp;Multisignatuur uitgeven...</translation>
     </message>
     <message>
@@ -867,7 +867,7 @@ MultiSend: %1</translation>
         <translation>Besteden vanuit een multisignatuur-adres</translation>
     </message>
     <message>
-        <source>&amp;Multisignature signing...</source>
+        <source>&amp;Multisignature signing</source>
         <translation>&amp;Multisignatuur ondertekenen...</translation>
     </message>
     <message>
@@ -2007,7 +2007,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Immatuur:</translation>
     </message>
 	<message>
-        <source>Locked:</source>
+        <source>MN Locked:</source>
         <translation>Vergrendeld:</translation>
     </message>
     <message>
@@ -2236,7 +2236,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Resetten</translation>
     </message>
     <message>
-        <source>Coin Control...</source>
+        <source>Coin Control</source>
         <translation>Munt controle...</translation>
     </message>
     <message>
@@ -2535,7 +2535,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
     </message>
     <message>
         <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware. 
-Please be patient...</source>
+Please be patient</source>
         <translation>Start ResetMintZerocoin: rescanning complete blockchain, dit zal tot 30 minuten nodig hebben, afhankelijk van uw hardware.
 Wees alsjeblieft geduldig...</translation>
     </message>
@@ -2592,7 +2592,7 @@ Wees alsjeblieft geduldig...</translation>
     <message>
         <source>Spending Zerocoin.
 Computationally expensive, might need several minutes depending on the selected Security Level and your hardware. 
-Please be patient...</source>
+Please be patient</source>
         <translation>Zerocoin besteden.
 Computationeel duur, zou mogelijk enkele minuten nodig hebben, afhankelijk van het geselecteerde beveiligingsniveau en je 
 hardware.
@@ -2721,14 +2721,14 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Fout bij het lezen van het masternode configuratiebestand: %1</translation>
     </message>
     <message>
-        <source>GOSSIP Core didn&apos;t yet exit safely...</source>
+        <source>GOSSIP Core didn&apos;t yet exit safely</source>
         <translation>GOSSIP Core is nog niet veilig afgesloten...</translation>
     </message>
 </context>
 <context>
     <name>QRImageWidget</name>
     <message>
-        <source>&amp;Save Image...</source>
+        <source>&amp;Save Image</source>
         <translation>&amp;Afbeelding opslaan...</translation>
     </message>
     <message>
@@ -3039,7 +3039,7 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Ongekend</translation>
     </message>
     <message>
-        <source>Fetching...</source>
+        <source>Fetching</source>
         <translation>Ophalen...</translation>
     </message>
 	<message>
@@ -3181,7 +3181,7 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Kopieer &amp;Adres</translation>
     </message>
     <message>
-        <source>&amp;Save Image...</source>
+        <source>&amp;Save Image</source>
         <translation>&amp;Afbeelding opslaan...</translation>
     </message>
     <message>
@@ -3267,7 +3267,7 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Munt controle kenmerken</translation>
     </message>
 	<message>
-        <source>Inputs...</source>
+        <source>Inputs</source>
         <translation>Invoer...</translation>
     </message>
     <message>
@@ -3347,7 +3347,7 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Transactiekosten: </translation>
     </message>
     <message>
-        <source>Choose...</source>
+        <source>Choose</source>
         <translation>Kies...</translation>
     </message>
     <message>
@@ -3387,7 +3387,7 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Bevestigingstijd:</translation>
     </message>
     <message>
-        <source>Open Coin Control...</source>
+        <source>Open Coin Control</source>
         <translation>Open munt controle...</translation>
     </message>
     <message>
@@ -3692,7 +3692,7 @@ Wees alsjeblieft geduldig...</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>GOSSIP Core is shutting down...</source>
+        <source>GOSSIP Core is shutting down</source>
         <translation>GOSSIP Core is aan het afsluiten...</translation>
     </message>
     <message>
@@ -4274,7 +4274,7 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Dit jaar</translation>
     </message>
     <message>
-        <source>Range...</source>
+        <source>Range</source>
         <translation>Omvang...</translation>
     </message>
     <message>
@@ -4848,7 +4848,7 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Blokcreatie opties:</translation> 
     </message>
     <message>
-        <source>Calculating missing accumulators...</source>
+        <source>Calculating missing accumulators</source>
         <translation>Calculeren van ontbrekende accumulators...</translation>
     </message>
     <message>
@@ -5048,7 +5048,7 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Genoeg gebruikers gevonden, aan het ondertekenen (%s aan het wachten)</translation>
     </message>
     <message>
-        <source>Found enough users, signing ...</source>
+        <source>Found enough users, signing </source>
         <translation>Genoeg gebruikers gevonden, aan het ondertekenen ...</translation>
     </message>
     <message>
@@ -5064,7 +5064,7 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Als &lt;category&gt; niet is opgegeven, output alle debugging informatie.</translation>
     </message>
     <message>
-        <source>Importing...</source>
+        <source>Importing</source>
         <translation>Importeren...</translation>
     </message>
     <message>
@@ -5242,23 +5242,23 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Luister naar verbindingen op &lt;port&gt; (standaard: %u of testnet: %u)</translation>
     </message>
     <message>
-        <source>Loading addresses...</source>
+        <source>Loading addresses</source>
         <translation>Adressen laden...</translation>
     </message>
     <message>
-        <source>Loading block index...</source>
+        <source>Loading block index</source>
         <translation>Block index laden...</translation>
     </message>
     <message>
-        <source>Loading budget cache...</source>
+        <source>Loading budget cache</source>
         <translation>Budget cache laden...</translation>
     </message>
     <message>
-        <source>Loading masternode cache...</source>
+        <source>Loading masternode cache</source>
         <translation>Masternode cache laden...</translation>
     </message>
     <message>
-        <source>Loading masternode payment cache...</source>
+        <source>Loading masternode payment cache</source>
         <translation>Masternode betalingscache laden...</translation>
     </message>
     <message>
@@ -5266,7 +5266,7 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Portemonnee laden... (%3.2f %%)</translation>
     </message>
     <message>
-        <source>Loading wallet...</source>
+        <source>Loading wallet</source>
         <translation>Portemonnee aan het laden...</translation>
     </message>
     <message>
@@ -5306,7 +5306,7 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Ontbrekende invoer transactie informatie ontbreekt.</translation>
     </message>
     <message>
-        <source>Mixing in progress...</source>
+        <source>Mixing in progress</source>
         <translation>Bezig met mixen...</translation>
     </message>
     <message>
@@ -5434,7 +5434,7 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Rescan de blockchain voor ontbrekende portemonnee transacties</translation>
     </message>
     <message>
-        <source>Rescanning...</source>
+        <source>Rescanning</source>
         <translation>Opnieuw scannen...</translation>
     </message>
     <message>
@@ -5582,23 +5582,23 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Synchronisatie voltooid</translation>
     </message>
     <message>
-        <source>Synchronization pending...</source>
+        <source>Synchronization pending</source>
         <translation>Synchronisatie in afwachting...</translation>
     </message>
     <message>
-        <source>Synchronizing budgets...</source>
+        <source>Synchronizing budgets</source>
         <translation>Budgeten synchroniseren...</translation>
     </message>
     <message>
-        <source>Synchronizing masternode winners...</source>
+        <source>Synchronizing masternode winners</source>
         <translation>Synchroniseren masternode winnaars...</translation>
     </message>
     <message>
-        <source>Synchronizing masternodes...</source>
+        <source>Synchronizing masternodes</source>
         <translation>Synchroniseren masternodes...</translation>
     </message>
     <message>
-        <source>Synchronizing sporks...</source>
+        <source>Synchronizing sporks</source>
         <translation>Synchroniseren sporks...</translation>
     </message>
     <message>
@@ -5702,11 +5702,11 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Waarde meer dan verduistering pool maximaal toestaat.</translation>
     </message>
     <message>
-        <source>Verifying blocks...</source>
+        <source>Verifying blocks</source>
         <translation>Blokken verifiëren...</translation>
     </message>
     <message>
-        <source>Verifying wallet...</source>
+        <source>Verifying wallet</source>
         <translation>Portemonnee verifiëren...</translation>
     </message>
     <message>
@@ -5745,7 +5745,7 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Waarschuwing: Niet ondersteunde argument -debugnet genegeerd, gebruik -debug=net.</translation>
     </message>
     <message>
-        <source>Will retry...</source>
+        <source>Will retry</source>
         <translation>Zal het opnieuw proberen...</translation>
     </message>
     <message>
@@ -5760,7 +5760,7 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Je transactie is geaccepteerd in de pool!</translation>
     </message>
     <message>
-        <source>Zapping all transactions from wallet...</source>
+        <source>Zapping all transactions from wallet</source>
         <translation>Verwijderen van alle transacties uit portemonnee...</translation>
     </message>
     <message>
@@ -5926,7 +5926,7 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;GOSSIP Alert&quot; admin@fo
         <translation>Minder dan 3 mints toegevoegd, niet in staat om uitgave te creëren</translation>
     </message>
     <message>
-        <source>Loading sporks...</source>
+        <source>Loading sporks</source>
         <translation>Sporks laden...</translation>
     </message>
     <message>
@@ -5934,15 +5934,15 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;GOSSIP Alert&quot; admin@fo
         <translation>Percentage automatisch geminte Zerocoin (10-100, standaard: %u)</translation>
     </message>
     <message>
-        <source>Preparing for resync...</source>
+        <source>Preparing for resync</source>
         <translation>Voorbereiden voor hersynchronisatie...</translation>
     </message>
     <message>
-        <source>Recalculating coin supply may take 30-60 minutes...</source>
+        <source>Recalculating coin supply may take 30-60 minutes</source>
         <translation>Herberekenen van de muntvoorraad kan 30-60 minuten duren...</translation>
     </message>
     <message>
-        <source>Recalculating supply statistics may take 30-60 minutes...</source>
+        <source>Recalculating supply statistics may take 30-60 minutes</source>
         <translation>Herberekenen van de voorraadsstatistieken kan 30-60 minuten duren...</translation>
     </message>
     <message>
@@ -6056,7 +6056,7 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;GOSSIP Alert&quot; admin@fo
         <translation>Resetten</translation>
     </message>
     <message>
-        <source>Coin Control...</source>
+        <source>Coin Control</source>
         <translation>Munt controle...</translation>
     </message>
     <message>
@@ -6386,7 +6386,7 @@ Om het percentage te wijzigen (geen herstart vereist):
     </message>
     <message>
         <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware. 
-Please be patient...</source>
+Please be patient</source>
         <translation>Start ResetMintZerocoin: rescanning complete blockchain, dit zal tot 30 minuten nodig hebben, afhankelijk van uw hardware.
 Wees alsjeblieft geduldig...</translation>
     </message>
@@ -6435,7 +6435,7 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Bevestig verzending coins</translation>
     </message>
     <message>
-        <source>Spending Zerocoin.\nComputationally expensive, might need several minutes depending on the selected Security Level and your hardware. \nPlease be patient...</source>
+        <source>Spending Zerocoin.\nComputationally expensive, might need several minutes depending on the selected Security Level and your hardware. \nPlease be patient</source>
         <translation>Zerocoin besteden.\nComputationeel duur, zou mogelijk enkele minuten nodig hebben, afhankelijk van het geselecteerde beveiligingsniveau en je hardware. .\nWees alsjeblieft geduldig...</translation>
     </message>
     <message>

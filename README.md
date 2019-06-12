@@ -45,6 +45,19 @@
 
 ## Release Notes
 
+### Version 2.1.0 - 12/06/2019
+
+* Fix icons update
+* Fix directory cleanup
+* Fix added checkpoints
+* Fix update depencies
+* Fix update some tooltips
+* Fix remove percentage from title page
+* Fix update menu labels
+* Fix update mouseover text
+* Fix correction in governance
+* Fix stop using dummy strings in clientversion.cpp
+
 ### Version 2.1.0 - 16/04/2019
 
 * Feature: Add proposals via wallet GUI

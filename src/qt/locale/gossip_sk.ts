@@ -442,7 +442,7 @@
         <translation>Zobraziť informácie o Qt</translation>
     </message>
     <message>
-        <source>&amp;Options...</source>
+        <source>&amp;Options</source>
         <translation>Možnosti...</translation>
     </message>
     <message>
@@ -454,7 +454,7 @@
         <translation>Zobraziť alebo skryť hlavné okno</translation>
     </message>
     <message>
-        <source>&amp;Encrypt Wallet...</source>
+        <source>&amp;Encrypt Wallet</source>
         <translation>Šifrovať peňaženku...</translation>
     </message>
     <message>
@@ -462,7 +462,7 @@
         <translation>Šifrujte súkromné kľúče, ktoré patria Vašej peňaženke</translation>
     </message>
     <message>
-        <source>&amp;Backup Wallet...</source>
+        <source>&amp;Backup Wallet</source>
         <translation>Zálohovať peňaženku...</translation>
     </message>
     <message>
@@ -470,7 +470,7 @@
         <translation>Zálohovať peňaženku na iné miesto</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
+        <source>&amp;Change Passphrase</source>
         <translation>Zmeniť prístupovú frázu...</translation>
     </message>
     <message>
@@ -478,7 +478,7 @@
         <translation>Zmeniť prístupovú frázu, ktorá bola použitá na šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>&amp;Unlock Wallet...</source>
+        <source>&amp;Unlock Wallet</source>
         <translation>Odomknúť peňaženku...</translation>
     </message>
     <message>
@@ -490,11 +490,11 @@
         <translation>Zamknúť peňaženku</translation>
     </message>
     <message>
-        <source>Sign &amp;message...</source>
+        <source>Sign &amp;message</source>
         <translation>Podpísať správu...</translation>
     </message>
     <message>
-        <source>&amp;Verify message...</source>
+        <source>&amp;Verify message</source>
         <translation>Overiť správu...</translation>
     </message>
     <message>
@@ -550,7 +550,7 @@
         <translation>Zobraziť automaticky vytvorené zálohy peňaženky</translation>
     </message>
     <message>
-        <source>&amp;Sending addresses...</source>
+        <source>&amp;Sending addresses</source>
         <translation>Odosielacie adresy</translation>
     </message>
     <message>
@@ -558,7 +558,7 @@
         <translation>Zobraziť zoznam použitých odosielajúcich adries a štítkov</translation>
     </message>
     <message>
-        <source>&amp;Receiving addresses...</source>
+        <source>&amp;Receiving addresses</source>
         <translation>Prijímacie adresy...</translation>
     </message>
     <message>
@@ -566,8 +566,8 @@
         <translation>Zobraziť zoznam použitých odosielajúcich adries a štítkov</translation>
     </message>
     <message>
-        <source>Open &amp;URI...</source>
-        <translation>Otvoriť URI...</translation>
+        <source>Open &amp;URI</source>
+        <translation>Otvoriť URI</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -606,7 +606,7 @@
         <translation>Odoslať mince na adresu GOSSIP</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and gossip: URIs)</source>
+        <source>Request payments</source>
         <translation>Vyžiadať platby (generuje QR kódy a gossip: identifikátory URI)</translation>
     </message>
     <message>
@@ -686,19 +686,19 @@
         <translation>GOSSIP Core klient</translation>
     </message>
     <message>
-        <source>Synchronizing with network...</source>
+        <source>Synchronizing with network</source>
         <translation>Synchronizácia so sieťou ...</translation>
     </message>
     <message>
-        <source>Importing blocks from disk...</source>
+        <source>Importing blocks from disk</source>
         <translation>Importovanie blokov z disku ...</translation>
     </message>
     <message>
-        <source>Reindexing blocks on disk...</source>
+        <source>Reindexing blocks on disk</source>
         <translation>Reindexovanie blokov na disku ...</translation>
     </message>
     <message>
-        <source>No block source available...</source>
+        <source>No block source available</source>
         <translation>Nie je dostupný žiadny zdroj blokov...</translation>
     </message>
     <message>
@@ -714,7 +714,7 @@
         <translation>%1 pozadu</translation>
     </message>
     <message>
-        <source>Catching up...</source>
+        <source>Catching up</source>
         <translation>Dobieham...</translation>
     </message>
     <message>

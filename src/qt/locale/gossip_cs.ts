@@ -442,7 +442,7 @@
         <translation>Ukaž informace o Qt</translation>
     </message>
     <message>
-        <source>&amp;Options...</source>
+        <source>&amp;Options</source>
         <translation>&amp;Možnosti...</translation>
     </message>
     <message>
@@ -454,7 +454,7 @@
         <translation>Zobrazit nebo schovat hlavní okno</translation>
     </message>
     <message>
-        <source>&amp;Encrypt Wallet...</source>
+        <source>&amp;Encrypt Wallet</source>
         <translation>&amp;Šifrovat Peněženku...</translation>
     </message>
     <message>
@@ -462,7 +462,7 @@
         <translation>Šifrovat privátní klíče náležící Vaší peněžence</translation>
     </message>
     <message>
-        <source>&amp;Backup Wallet...</source>
+        <source>&amp;Backup Wallet</source>
         <translation>&amp;Zálohovat peněženku...</translation>
     </message>
     <message>
@@ -470,7 +470,7 @@
         <translation>Zálohovat peněženku na jiné místo</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
+        <source>&amp;Change Passphrase</source>
         <translation>&amp;Změnit frázové heslo...</translation>
     </message>
     <message>
@@ -478,7 +478,7 @@
         <translation>Změnit frázové heslo pro šifrování peněženky</translation>
     </message>
     <message>
-        <source>&amp;Unlock Wallet...</source>
+        <source>&amp;Unlock Wallet</source>
         <translation>&amp;Odemknout peněženku...</translation>
     </message>
     <message>
@@ -490,11 +490,11 @@
         <translation>&amp;Zamknout Peněženku</translation>
     </message>
     <message>
-        <source>Sign &amp;message...</source>
+        <source>Sign &amp;message</source>
         <translation>Podepsat &amp;zprávu...</translation>
     </message>
     <message>
-        <source>&amp;Verify message...</source>
+        <source>&amp;Verify message</source>
         <translation>&amp;Verifikovat zprávu...</translation>
     </message>
     <message>
@@ -550,7 +550,7 @@
         <translation>Zobrazit automaticky vytvořené zálohy peněženky</translation>
     </message>
     <message>
-        <source>&amp;Sending addresses...</source>
+        <source>&amp;Sending addresses</source>
         <translation>&amp;Odesílací adresy...</translation>
     </message>
     <message>
@@ -558,7 +558,7 @@
         <translation>Zobrazit seznam použitých adres  a popisků pro odedslání platby</translation>
     </message>
     <message>
-        <source>&amp;Receiving addresses...</source>
+        <source>&amp;Receiving addresses</source>
         <translation>&amp;Příjimací adresy...</translation>
     </message>
     <message>
@@ -566,8 +566,8 @@
         <translation>Zobrazit seznam použitých adres  a popisků pro přijetí plateb</translation>
     </message>
     <message>
-        <source>Open &amp;URI...</source>
-        <translation>Otevřít &amp;URI...</translation>
+        <source>Open &amp;URI</source>
+        <translation>Otevřít &amp;URI</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -606,7 +606,7 @@
         <translation>Odeslat platbuna GOSSIP adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and gossip: URIs)</source>
+        <source>Request payments</source>
         <translation>Vyžádat platbu (generování QK kódu a gossip: URIs)</translation>
     </message>
     <message>
@@ -686,19 +686,19 @@
         <translation>GOSSIP Core klient</translation>
     </message>
     <message>
-        <source>Synchronizing with network...</source>
+        <source>Synchronizing with network</source>
         <translation>Synchronizace se sítí...</translation>
     </message>
     <message>
-        <source>Importing blocks from disk...</source>
+        <source>Importing blocks from disk</source>
         <translation>Import bloků z disku...</translation>
     </message>
     <message>
-        <source>Reindexing blocks on disk...</source>
+        <source>Reindexing blocks on disk</source>
         <translation>Reindexace bloků na disku...</translation>
     </message>
     <message>
-        <source>No block source available...</source>
+        <source>No block source available</source>
         <translation>Není dostupný žádný zdroj bloků...</translation>
     </message>
     <message>
@@ -1746,7 +1746,7 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>QRImageWidget</name>
     <message>
-        <source>&amp;Save Image...</source>
+        <source>&amp;Save Image</source>
         <translation>&amp;Uložit Obrázek...</translation>
     </message>
     </context>
@@ -1967,7 +1967,7 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Kopírovat &amp;Adresu</translation>
     </message>
     <message>
-        <source>&amp;Save Image...</source>
+        <source>&amp;Save Image</source>
         <translation>&amp;Uložit Obrázek...</translation>
     </message>
     <message>
@@ -2065,7 +2065,7 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Poplatek Transakce:</translation>
     </message>
     <message>
-        <source>Choose...</source>
+        <source>Choose</source>
         <translation>Vybrat...</translation>
     </message>
     <message>
@@ -2398,19 +2398,19 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Synchronizace dokončena</translation>
     </message>
     <message>
-        <source>Synchronization pending...</source>
+        <source>Synchronization pending</source>
         <translation>Synchronizace probíhá</translation>
     </message>
     <message>
-        <source>Synchronizing budgets...</source>
+        <source>Synchronizing budgets</source>
         <translation>Synchronizace rozpočtu...</translation>
     </message>
     <message>
-        <source>Synchronizing masternode winners...</source>
+        <source>Synchronizing masternode winners</source>
         <translation>Synchronizace vítězných masternodů...</translation>
     </message>
     <message>
-        <source>Synchronizing masternodes...</source>
+        <source>Synchronizing masternodes</source>
         <translation>Synchronizace masternodů...</translation>
     </message>
     <message>
@@ -2466,11 +2466,11 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Použít testovací síť</translation>
     </message>
     <message>
-        <source>Verifying blocks...</source>
+        <source>Verifying blocks</source>
         <translation>Ověřování bloků...</translation>
     </message>
     <message>
-        <source>Verifying wallet...</source>
+        <source>Verifying wallet</source>
         <translation>Ověřování peněženky...</translation>
     </message>
     <message>

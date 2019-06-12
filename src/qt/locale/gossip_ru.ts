@@ -438,7 +438,7 @@
         <translation>Показать информацию о Qt</translation>
     </message>
     <message>
-        <source>&amp;Options...</source>
+        <source>&amp;Options</source>
         <translation>&amp;Опции...</translation>
     </message>
     <message>
@@ -450,7 +450,7 @@
         <translation>Показать или скрыть основное Окно</translation>
     </message>
     <message>
-        <source>&amp;Encrypt Wallet...</source>
+        <source>&amp;Encrypt Wallet</source>
         <translation>&amp;Зашифровать кошелек...</translation>
     </message>
     <message>
@@ -458,7 +458,7 @@
         <translation>Зашифровать личные ключи, принадлежащие вашему кошельку</translation>
     </message>
     <message>
-        <source>&amp;Backup Wallet...</source>
+        <source>&amp;Backup Wallet</source>
         <translation>&amp;Резервная копия кошелька...</translation>
     </message>
     <message>
@@ -466,7 +466,7 @@
         <translation>Сделать резервную копию кошелька в другом месте</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
+        <source>&amp;Change Passphrase</source>
         <translation>&amp;Изменить кодовую фразу</translation>
     </message>
     <message>
@@ -474,7 +474,7 @@
         <translation>Изменение кодовой фразы, используемой для шифрования кошелька</translation>
     </message>
     <message>
-        <source>&amp;Unlock Wallet...</source>
+        <source>&amp;Unlock Wallet</source>
         <translation>&amp;Разблокировать кошелек...</translation>
     </message>
     <message>
@@ -486,11 +486,11 @@
         <translation>&amp;Блокировка кошелька</translation>
     </message>
     <message>
-        <source>Sign &amp;message...</source>
+        <source>Sign &amp;message</source>
         <translation>Подписать &amp;сообщение...</translation>
     </message>
     <message>
-        <source>&amp;Verify message...</source>
+        <source>&amp;Verify message</source>
         <translation>&amp;Проверить сообщение...</translation>
     </message>
     <message>
@@ -546,7 +546,7 @@
         <translation>Показать автоматически созданные резервные копии кошелька</translation>
     </message>
     <message>
-        <source>&amp;Sending addresses...</source>
+        <source>&amp;Sending addresses</source>
         <translation>&amp;Адреса отправки...</translation>
     </message>
     <message>
@@ -554,7 +554,7 @@
         <translation>Показать список использованых адресов отправки </translation>
     </message>
     <message>
-        <source>&amp;Receiving addresses...</source>
+        <source>&amp;Receiving addresses</source>
         <translation>&amp;Адреса получения...</translation>
     </message>
     <message>
@@ -562,7 +562,7 @@
         <translation>Показать список использованых адресов приёма</translation>
     </message>
     <message>
-        <source>Open &amp;URI...</source>
+        <source>Open &amp;URI</source>
         <translation>Открыть &amp;URI</translation>
     </message>
     <message>
@@ -602,7 +602,7 @@
         <translation>Отправить монеты на GOSSIP адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and gossip: URIs)</source>
+        <source>Request payments</source>
         <translation>Запросить платежи (генерирует QR-код и GOSSIP: URI)</translation>
     </message>
     <message>
@@ -690,19 +690,19 @@
         <translation>Клиент GOSSIP Core</translation>
     </message>
     <message>
-        <source>Synchronizing with network...</source>
+        <source>Synchronizing with network</source>
         <translation>Синхронизация с сетью...</translation>
     </message>
     <message>
-        <source>Importing blocks from disk...</source>
+        <source>Importing blocks from disk</source>
         <translation>Импортирование блоков с диска...</translation>
     </message>
     <message>
-        <source>Reindexing blocks on disk...</source>
+        <source>Reindexing blocks on disk</source>
         <translation>Переиндексация блоков на диске...</translation>
     </message>
     <message>
-        <source>No block source available...</source>
+        <source>No block source available</source>
         <translation>Источник блоков недоступен</translation>
     </message>
     <message>
@@ -718,7 +718,7 @@
         <translation>%1 позади</translation>
     </message>
     <message>
-        <source>Catching up...</source>
+        <source>Catching up</source>
         <translation>ловлю...</translation>
     </message>
     <message>
@@ -2234,7 +2234,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
 <context>
     <name>QRImageWidget</name>
     <message>
-        <source>&amp;Save Image...</source>
+        <source>&amp;Save Image</source>
         <translation>&amp;Сохранить изображение</translation>
     </message>
     <message>
@@ -2526,7 +2526,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Неизвестно</translation>
     </message>
     <message>
-        <source>Fetching...</source>
+        <source>Fetching</source>
         <translation>Извлечение...</translation>
     </message>
 </context>
@@ -2600,7 +2600,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Скопировать &amp;Адрес</translation>
     </message>
     <message>
-        <source>&amp;Save Image...</source>
+        <source>&amp;Save Image</source>
         <translation>&amp;Сохранить изображение</translation>
     </message>
     <message>
@@ -2714,7 +2714,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Комиссия за транзакцию:</translation>
     </message>
     <message>
-        <source>Choose...</source>
+        <source>Choose</source>
         <translation>Выберите:</translation>
     </message>
     <message>
@@ -2840,7 +2840,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>GOSSIP Core is shutting down...</source>
+        <source>GOSSIP Core is shutting down</source>
         <translation>GOSSIP Core выключается...</translation>
     </message>
     <message>
@@ -3089,7 +3089,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Этот год</translation>
     </message>
     <message>
-        <source>Range...</source>
+        <source>Range</source>
         <translation>Диапазон...</translation>
     </message>
     <message>
@@ -3327,11 +3327,11 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Завершение транзакции.</translation>
     </message>
     <message>
-        <source>Found enough users, signing ...</source>
+        <source>Found enough users, signing </source>
         <translation>Нашел достаточно пользователей, подписал ...</translation>
     </message>
     <message>
-        <source>Importing...</source>
+        <source>Importing</source>
         <translation>Импорт ...</translation>
     </message>
     <message>
@@ -3371,15 +3371,15 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Последняя успешная операция обфускации была совсем недавно.</translation>
     </message>
     <message>
-        <source>Loading addresses...</source>
+        <source>Loading addresses</source>
         <translation>Загрузка адресов ...</translation>
     </message>
     <message>
-        <source>Loading block index...</source>
+        <source>Loading block index</source>
         <translation>Загружается индекс блока ...</translation>
     </message>
     <message>
-        <source>Loading budget cache...</source>
+        <source>Loading budget cache</source>
         <translation>Загрузка кэша бюджета ...</translation>
     </message>
     <message>
@@ -3387,7 +3387,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Загрузка кошелька ... (%3.2f %%)</translation>
     </message>
     <message>
-        <source>Loading wallet...</source>
+        <source>Loading wallet</source>
         <translation>Загрузка кошелька ...</translation>
     </message>
     <message>
@@ -3399,7 +3399,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Отсутствует входная информация о транзакции.</translation>
     </message>
     <message>
-        <source>Mixing in progress...</source>
+        <source>Mixing in progress</source>
         <translation>Выполняется микширование ...</translation>
     </message>
     <message>
@@ -3455,7 +3455,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Повторите сканирование цепочки блоков для пропущенных транзакций в кошельке.</translation>
     </message>
     <message>
-        <source>Rescanning...</source>
+        <source>Rescanning</source>
         <translation>Повторное сканирование ...</translation>
     </message>
     <message>
@@ -3499,23 +3499,23 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Синхронизация завершена</translation>
     </message>
     <message>
-        <source>Synchronization pending...</source>
+        <source>Synchronization pending</source>
         <translation>Ожидается синхронизация ...</translation>
     </message>
     <message>
-        <source>Synchronizing budgets...</source>
+        <source>Synchronizing budgets</source>
         <translation>Синхронизация бюджетов ...</translation>
     </message>
     <message>
-        <source>Synchronizing masternode winners...</source>
+        <source>Synchronizing masternode winners</source>
         <translation>Синхронизация мастернод победителей ...</translation>
     </message>
     <message>
-        <source>Synchronizing masternodes...</source>
+        <source>Synchronizing masternodes</source>
         <translation>Синхронизация мастернод ...</translation>
     </message>
     <message>
-        <source>Synchronizing sporks...</source>
+        <source>Synchronizing sporks</source>
         <translation>Синхронизация спорков ...</translation>
     </message>
     <message>

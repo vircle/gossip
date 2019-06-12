@@ -112,7 +112,7 @@
                 </font>
                </property>
                <property name="text">
-                <string>Overview</string>
+                <string>GOSSIP Blockchain Project</string>
                </property>
                <property name="alignment">
                 <set>Qt::AlignCenter</set>
@@ -388,13 +388,6 @@
                         </widget>
                        </item>
                        <item>
-                        <widget class="QLabel" name="labelGOSSPercent">
-                         <property name="text">
-                          <string notr="true">0 %</string>
-                         </property>
-                        </widget>
-                       </item>
-                       <item>
                         <spacer name="horizontalSpacer_3">
                          <property name="orientation">
                           <enum>Qt::Horizontal</enum>
@@ -611,10 +604,10 @@
                        <item row="4" column="0">
                         <widget class="QLabel" name="labelLockedBalanceText">
                          <property name="toolTip">
-                          <string>Locked GOSS or Masternode collaterals. These are excluded from zGOSS minting.</string>
+                          <string>Locked Masternode collaterals.</string>
                          </property>
                          <property name="text">
-                          <string>Locked:</string>
+                          <string>MN Locked:</string>
                          </property>
                         </widget>
                        </item>
@@ -630,7 +623,7 @@
                           <cursorShape>IBeamCursor</cursorShape>
                          </property>
                          <property name="toolTip">
-                          <string>Locked GOSS or Masternode collaterals. These are excluded from zGOSS minting.</string>
+                          <string>Locked GOSS Masternode collaterals.</string>
                          </property>
                          <property name="text">
                           <string notr="true">0.000 000 00 GOSS</string>
@@ -769,7 +762,7 @@
                     </property>
                     <layout class="QVBoxLayout" name="verticalLayout_7">
                      <item>
-                      <layout class="QHBoxLayout" name="horizontalLayout_8" stretch="0,0,0">
+                      <layout class="QHBoxLayout" name="horizontalLayout_8" stretch="0,0">
                        <item>
                         <widget class="QLabel" name="label_5z_3">
                          <property name="minimumSize">
@@ -787,13 +780,6 @@
                          </property>
                          <property name="text">
                           <string>zGOSS Balance</string>
-                         </property>
-                        </widget>
-                       </item>
-                       <item>
-                        <widget class="QLabel" name="labelzGOSSPercent">
-                         <property name="text">
-                          <string notr="true">0 %</string>
                          </property>
                         </widget>
                        </item>

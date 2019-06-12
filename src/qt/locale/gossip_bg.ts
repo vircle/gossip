@@ -442,7 +442,7 @@
         <translation>Покази информация за Qt</translation>
     </message>
     <message>
-        <source>&amp;Options...</source>
+        <source>&amp;Options</source>
         <translation>&amp;Опции...</translation>
     </message>
     <message>
@@ -454,7 +454,7 @@
         <translation>Покажи или скрий главния прозорец</translation>
     </message>
     <message>
-        <source>&amp;Encrypt Wallet...</source>
+        <source>&amp;Encrypt Wallet</source>
         <translation>&amp;Шифрирай Портфейла...</translation>
     </message>
     <message>
@@ -462,7 +462,7 @@
         <translation>Шифрирай личните ключове на портфейла</translation>
     </message>
     <message>
-        <source>&amp;Backup Wallet...</source>
+        <source>&amp;Backup Wallet</source>
         <translation>&amp;Резерва на портфейла...</translation>
     </message>
     <message>
@@ -470,7 +470,7 @@
         <translation>Направи резерва на друго място</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
+        <source>&amp;Change Passphrase</source>
         <translation>&amp;Промени фразата...</translation>
     </message>
     <message>
@@ -478,7 +478,7 @@
         <translation>Промени фразата използвана за шифриране</translation>
     </message>
     <message>
-        <source>&amp;Unlock Wallet...</source>
+        <source>&amp;Unlock Wallet</source>
         <translation>&amp;Отключи Портфейла...</translation>
     </message>
     <message>
@@ -490,11 +490,11 @@
         <translation>&amp;Заключи портфейла</translation>
     </message>
     <message>
-        <source>Sign &amp;message...</source>
+        <source>Sign &amp;message</source>
         <translation>Подпиши &amp;съобщение...</translation>
     </message>
     <message>
-        <source>&amp;Verify message...</source>
+        <source>&amp;Verify message</source>
         <translation>&amp;Провери съобщение...</translation>
     </message>
     <message>
@@ -550,7 +550,7 @@
         <translation>Покажи автоматично създадените резерви</translation>
     </message>
     <message>
-        <source>&amp;Sending addresses...</source>
+        <source>&amp;Sending addresses</source>
         <translation>&amp;Изпращане на адреси...</translation>
     </message>
     <message>
@@ -558,7 +558,7 @@
         <translation>Покази списък с използваните адреси и етикети</translation>
     </message>
     <message>
-        <source>&amp;Receiving addresses...</source>
+        <source>&amp;Receiving addresses</source>
         <translation>&amp;Получаващи адреси...</translation>
     </message>
     <message>
@@ -566,8 +566,8 @@
         <translation>Покажи списък с използваните получаващи адреси</translation>
     </message>
     <message>
-        <source>Open &amp;URI...</source>
-        <translation>Отвори &amp;URI...</translation>
+        <source>Open &amp;URI</source>
+        <translation>Отвори &amp;URI</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -610,7 +610,7 @@
         <translation>Изпратете монети до GOSSIP адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and gossip: URIs)</source>
+        <source>Request payments</source>
         <translation>Поискай плащане (генерира QR кодове и  GOSSIP:URI)</translation>
     </message>
     <message>
@@ -702,19 +702,19 @@
         <translation><numerusform>%n активни връзки към GOSSIP мрежата</numerusform><numerusform>%n активни свръзки към GOSSIP мрежата</numerusform></translation>
     </message>
     <message>
-        <source>Synchronizing with network...</source>
+        <source>Synchronizing with network</source>
         <translation>Синхронизиране с мрежата...</translation>
     </message>
     <message>
-        <source>Importing blocks from disk...</source>
+        <source>Importing blocks from disk</source>
         <translation>Импортиране на блокове от диска...</translation>
     </message>
     <message>
-        <source>Reindexing blocks on disk...</source>
+        <source>Reindexing blocks on disk</source>
         <translation>Повторно индексиране на блокове от диска...</translation>
     </message>
     <message>
-        <source>No block source available...</source>
+        <source>No block source available</source>
         <translation>Не е намерен източник на блокове...</translation>
     </message>
     <message>
@@ -746,7 +746,7 @@
         <translation>%1 изостанал</translation>
     </message>
     <message>
-        <source>Catching up...</source>
+        <source>Catching up</source>
         <translation>Наваксване...</translation>
     </message>
     <message>
@@ -2108,7 +2108,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Ресет</translation>
     </message>
     <message>
-        <source>Coin Control...</source>
+        <source>Coin Control</source>
         <translation>Монетен контрол...</translation>
     </message>
     <message>
@@ -2407,7 +2407,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
     </message>
     <message>
         <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware. 
-Please be patient...</source>
+Please be patient</source>
         <translation>Стартиране на ResetMintZerocoin: сканираме цялия блокчейн, това ще изисква около 30 минути, в зависимост от вашия компютър.
 Моля изчакате...</translation>
     </message>
@@ -2464,7 +2464,7 @@ Please be patient...</source>
     <message>
         <source>Spending Zerocoin.
 Computationally expensive, might need several minutes depending on the selected Security Level and your hardware. 
-Please be patient...</source>
+Please be patient</source>
         <translation>Харчене на Zerocoin.
 Математически скъп превод, който може да има нужда от няколко минути за потвърждение, в зависимост от избраното Ниво на Сигурност и Вашият хардуер.
 Моля проявете търпение...</translation>
@@ -2568,7 +2568,7 @@ Please be patient...</source>
 <context>
     <name>QRImageWidget</name>
     <message>
-        <source>&amp;Save Image...</source>
+        <source>&amp;Save Image</source>
         <translation>&amp;Запази Картинката...</translation>
     </message>
     <message>
@@ -2875,7 +2875,7 @@ Please be patient...</source>
         <translation>Непознат</translation>
     </message>
     <message>
-        <source>Fetching...</source>
+        <source>Fetching</source>
         <translation>Прихващане...</translation>
     </message>
 </context>
@@ -2981,7 +2981,7 @@ Please be patient...</source>
         <translation>Копирай &amp;Адрес</translation>
     </message>
     <message>
-        <source>&amp;Save Image...</source>
+        <source>&amp;Save Image</source>
         <translation>&amp;Запази Картинката...</translation>
     </message>
     <message>
@@ -3135,7 +3135,7 @@ Please be patient...</source>
         <translation>Такса Превод:</translation>
     </message>
     <message>
-        <source>Choose...</source>
+        <source>Choose</source>
         <translation>Избери...</translation>
     </message>
     <message>
@@ -3171,7 +3171,7 @@ Please be patient...</source>
         <translation>Време на потвърждение:</translation>
     </message>
     <message>
-        <source>Open Coin Control...</source>
+        <source>Open Coin Control</source>
         <translation>Отвори Монетен Контрол...</translation>
     </message>
     <message>
@@ -3469,7 +3469,7 @@ Please be patient...</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>GOSSIP Core is shutting down...</source>
+        <source>GOSSIP Core is shutting down</source>
         <translation>Изключване на GOSSIP Ядрото...</translation>
     </message>
     <message>
@@ -4034,7 +4034,7 @@ Please be patient...</source>
         <translation>Тази година</translation>
     </message>
     <message>
-        <source>Range...</source>
+        <source>Range</source>
         <translation>Порядък...</translation>
     </message>
     <message>

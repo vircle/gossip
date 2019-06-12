@@ -27,16 +27,12 @@ std::vector<CFinalizedBudgetBroadcast> vecImmatureFinalizedBudgets;
 int nSubmittedFinalBudget;
 
 CAmount GetBudgetSystemCollateralAmount(int nHeight) {
-    if (nHeight <= 277777) {
-        return 100 * COIN;
-    } else {
-        return 50 * COIN;
-    }
+    return 500 * COIN;
 }
 
 int GetBudgetPaymentCycleBlocks() {
-    // Amount of blocks in a months period of time (using 90 seconds per block) = ((24*60*60)/90)*30
-    if (Params().NetworkID() == CBaseChainParams::MAIN) return 28800;
+    // Amount of blocks in 14 days (90 seconds/block = 960 blocks per day = 960 * 14 = 13440
+    if (Params().NetworkID() == CBaseChainParams::MAIN) return 13440;
 
     //for testing purposes (using 30 seconds per block) = (24*60*2)/10
     return 288; //ten times per day
@@ -67,8 +63,6 @@ bool IsBudgetCollateralValid(uint256 nTxCollateralHash, uint256 nExpectedHash, s
         }
         if (fBudgetFinalization) {
             // Collateral for budget finalization
-            // Note: there are still old valid budgets out there, but the check for the new 25 GOSS finalization collateral
-            //       will also cover the old 50 GOSS finalization collateral.
             LogPrint("mnbudget", "Final Budget: o.scriptPubKey(%s) == findScript(%s) ?\n", o.scriptPubKey.ToString(), findScript.ToString());
             if (o.scriptPubKey == findScript) {
                 LogPrint("mnbudget", "Final Budget: o.nValue(%ld) >= BUDGET_FEE_TX(%ld) ?\n", o.nValue, GetBudgetSystemCollateralAmount(chainActive.Height()));
@@ -169,14 +163,14 @@ void CBudgetManager::SubmitFinalBudget()
         return;
     }
  
-    // Submit final budget during the last 2 days (2880 blocks) before payment for Mainnet, about 9 minutes (9 blocks) for Testnet
-    int finalizationWindow = ((GetBudgetPaymentCycleBlocks() / 30) * 2);
+    // Submit final budget during the last 2 days (1920 blocks) before payment for Mainnet, about 9 minutes (9 blocks) for Testnet
+    int finalizationWindow = ((GetBudgetPaymentCycleBlocks() / 14) * 2);
 
     if (Params().NetworkID() == CBaseChainParams::TESTNET) {
         // NOTE: 9 blocks for testnet is way to short to have any masternode submit an automatic vote on the finalized(!) budget,
         //       because those votes are only submitted/relayed once every 56 blocks in CFinalizedBudget::AutoCheck()
 
-        finalizationWindow = 214; // 180 + 4 finalization confirmations + 5 minutes (30 blocks) buffer for propagation
+        finalizationWindow = 64; // 56 + 4 finalization confirmations + 4 minutes (30 blocks) buffer for propagation
     }
 
     int nFinalizationStart = nBlockStart - finalizationWindow;
@@ -913,31 +907,7 @@ CAmount CBudgetManager::GetTotalBudget(int nHeight)
         return ((nSubsidy / 100) * 10) * 146;
     }
 
-    if (nHeight == 1) {
-        return 25000000 * COIN;
-    } else if (nHeight > 1 && nHeight <= Params().LAST_POW_BLOCK()) {
-        return 500 * COIN;
-    } else if (nHeight > Params().LAST_POW_BLOCK() && nHeight <= 77777) {
-        return 25 * COIN;
-    } else if (nHeight > 77777 && nHeight <= 133333) {
-        return 23 * COIN;
-    } else if (nHeight > 133333 && nHeight <= 199999) {
-        return 20 * COIN;
-    } else if (nHeight > 199999 && nHeight <= 277777) {
-        return 17 * COIN;
-    } else if (nHeight > 277777 && nHeight <= 377777) {
-        return 15 * COIN;
-    } else if (nHeight > 377777 && nHeight <= 552497) {
-        return 13 * COIN;
-    } else if (nHeight > 552497 && nHeight <= 727217) {
-        return 11 * COIN;
-    } else if (nHeight > 727217 && nHeight <= 901937) {
-        return 9 * COIN;
-    } else if (nHeight > 901937 && nHeight <= 1076657) {
-        return 7 * COIN;
-    } else {
-        return 5 * COIN;
-    }
+    return 12 * COIN * 960 * 14;
 }
 
 void CBudgetManager::NewBlock()
@@ -1487,7 +1457,7 @@ bool CBudgetProposal::IsValid(std::string& strError, bool fCheckCollateral)
         return false;
     }
 
-    if (nAmount < 10 * COIN) {
+    if (nAmount < 100 * COIN) {
         strError = "Proposal " + strProposalName + ": Invalid nAmount";
         return false;
     }

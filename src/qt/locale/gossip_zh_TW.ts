@@ -426,7 +426,7 @@
         <translation>顯示 Qt 資訊</translation>
     </message>
     <message>
-        <source>&amp;Options...</source>
+        <source>&amp;Options</source>
         <translation>&amp;選項</translation>
     </message>
     <message>
@@ -438,7 +438,7 @@
         <translation>顯示或隱藏主視窗</translation>
     </message>
     <message>
-        <source>&amp;Encrypt Wallet...</source>
+        <source>&amp;Encrypt Wallet</source>
         <translation>&amp;錢包加密</translation>
     </message>
     <message>
@@ -446,7 +446,7 @@
         <translation>將你錢包中的私鑰加密</translation>
     </message>
     <message>
-        <source>&amp;Backup Wallet...</source>
+        <source>&amp;Backup Wallet</source>
         <translation>&amp;備份錢包</translation>
     </message>
     <message>
@@ -454,7 +454,7 @@
         <translation>備份錢包到另外的位置</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
+        <source>&amp;Change Passphrase</source>
         <translation>&amp;更改密碼</translation>
     </message>
     <message>
@@ -462,7 +462,7 @@
         <translation>更改使用中的錢包密碼</translation>
     </message>
     <message>
-        <source>&amp;Unlock Wallet...</source>
+        <source>&amp;Unlock Wallet</source>
         <translation>&amp;錢包解鎖</translation>
     </message>
     <message>
@@ -474,11 +474,11 @@
         <translation>&amp;錢包上鎖</translation>
     </message>
     <message>
-        <source>Sign &amp;message...</source>
+        <source>Sign &amp;message</source>
         <translation>&amp;訊息簽章</translation>
     </message>
     <message>
-        <source>&amp;Verify message...</source>
+        <source>&amp;Verify message</source>
         <translation>&amp;查驗訊息</translation>
     </message>
     <message>
@@ -534,7 +534,7 @@
         <translation>顯示自動建立的錢包備份</translation>
     </message>
     <message>
-        <source>&amp;Sending addresses...</source>
+        <source>&amp;Sending addresses</source>
         <translation>&amp;發送地址</translation>
     </message>
     <message>
@@ -542,7 +542,7 @@
         <translation>顯示曾經使用的發送地址及標籤</translation>
     </message>
     <message>
-        <source>&amp;Receiving addresses...</source>
+        <source>&amp;Receiving addresses</source>
         <translation>&amp;接收地址</translation>
     </message>
     <message>
@@ -550,7 +550,7 @@
         <translation>顯示曾經使用過的接收地址</translation>
     </message>
     <message>
-        <source>Open &amp;URI...</source>
+        <source>Open &amp;URI</source>
         <translation>&amp;打開網址</translation>
     </message>
     <message>
@@ -590,7 +590,7 @@
         <translation>送出錢幣到 GOSSIP 地址</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and gossip: URIs)</source>
+        <source>Request payments</source>
         <translation>請求付款 (會產生 QR Code跟 gossip 位址)</translation>
     </message>
     <message>

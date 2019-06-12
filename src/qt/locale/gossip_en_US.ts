@@ -442,7 +442,7 @@
         <translation>Show information about Qt</translation>
     </message>
     <message>
-        <source>&amp;Options...</source>
+        <source>&amp;Options</source>
         <translation>&amp;Options...</translation>
     </message>
     <message>
@@ -454,31 +454,31 @@
         <translation>Show or hide the main Window</translation>
     </message>
     <message>
-        <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Encrypt Wallet...</translation>
+        <source>&amp;Encrypt Wallet</source>
+        <translation>&amp;Encrypt Wallet</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
         <translation>Encrypt the private keys that belong to your wallet</translation>
     </message>
     <message>
-        <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Backup Wallet...</translation>
+        <source>&amp;Backup Wallet</source>
+        <translation>&amp;Backup Wallet</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
         <translation>Backup wallet to another location</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Change Passphrase...</translation>
+        <source>&amp;Change Passphrase</source>
+        <translation>&amp;Change Passphrase</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Change the passphrase used for wallet encryption</translation>
     </message>
     <message>
-        <source>&amp;Unlock Wallet...</source>
+        <source>&amp;Unlock Wallet</source>
         <translation>&amp;Unlock Wallet...</translation>
     </message>
     <message>
@@ -490,12 +490,12 @@
         <translation>&amp;Lock Wallet</translation>
     </message>
     <message>
-        <source>Sign &amp;message...</source>
-        <translation>Sign &amp;message...</translation>
+        <source>Sign &amp;message</source>
+        <translation>Sign &amp;message</translation>
     </message>
     <message>
-        <source>&amp;Verify message...</source>
-        <translation>&amp;Verify message...</translation>
+        <source>&amp;Verify message</source>
+        <translation>&amp;Verify message</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -550,24 +550,24 @@
         <translation>Show automatically created wallet backups</translation>
     </message>
     <message>
-        <source>&amp;Sending addresses...</source>
-        <translation>&amp;Sending addresses...</translation>
+        <source>&amp;Sending addresses</source>
+        <translation>&amp;Sending addresses</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
         <translation>Show the list of used sending addresses and labels</translation>
     </message>
     <message>
-        <source>&amp;Receiving addresses...</source>
-        <translation>&amp;Receiving addresses...</translation>
+        <source>&amp;Receiving addresses</source>
+        <translation>&amp;Receiving addresses</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
         <translation>Show the list of used receiving addresses and labels</translation>
     </message>
     <message>
-        <source>Open &amp;URI...</source>
-        <translation>Open &amp;URI...</translation>
+        <source>Open &amp;URI</source>
+        <translation>Open &amp;URI</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -610,8 +610,8 @@
         <translation>Send coins to a GOSSIP address</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and gossip: URIs)</source>
-        <translation>Request payments (generates QR codes and gossip: URIs)</translation>
+        <source>Request payments</source>
+        <translation>Request payments</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -694,19 +694,19 @@
         <translation><numerusform>%n active connection(s) to GOSSIP network</numerusform><numerusform>%n active connection(s) to GOSSIP network</numerusform></translation>
     </message>
     <message>
-        <source>Synchronizing with network...</source>
+        <source>Synchronizing with network</source>
         <translation>Synchronizing with network...</translation>
     </message>
     <message>
-        <source>Importing blocks from disk...</source>
+        <source>Importing blocks from disk</source>
         <translation>Importing blocks from disk...</translation>
     </message>
     <message>
-        <source>Reindexing blocks on disk...</source>
+        <source>Reindexing blocks on disk</source>
         <translation>Reindexing blocks on disk...</translation>
     </message>
     <message>
-        <source>No block source available...</source>
+        <source>No block source available</source>
         <translation>No block source available...</translation>
     </message>
     <message>
@@ -738,7 +738,7 @@
         <translation>%1 behind</translation>
     </message>
     <message>
-        <source>Catching up...</source>
+        <source>Catching up</source>
         <translation>Catching up...</translation>
     </message>
     <message>
@@ -2225,7 +2225,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
 <context>
     <name>QRImageWidget</name>
     <message>
-        <source>&amp;Save Image...</source>
+        <source>&amp;Save Image</source>
         <translation>&amp;Save Image...</translation>
     </message>
     <message>
@@ -2532,7 +2532,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Unknown</translation>
     </message>
     <message>
-        <source>Fetching...</source>
+        <source>Fetching</source>
         <translation>Fetching...</translation>
     </message>
 </context>
@@ -2638,7 +2638,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Copy &amp;Address</translation>
     </message>
     <message>
-        <source>&amp;Save Image...</source>
+        <source>&amp;Save Image</source>
         <translation>&amp;Save Image...</translation>
     </message>
     <message>
@@ -2720,7 +2720,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Coin Control Features</translation>
     </message>
     <message>
-        <source>Inputs...</source>
+        <source>Inputs</source>
         <translation>Inputs...</translation>
     </message>
     <message>
@@ -2800,7 +2800,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>Transaction Fee:</translation>
     </message>
     <message>
-        <source>Choose...</source>
+        <source>Choose</source>
         <translation>Choose...</translation>
     </message>
     <message>
@@ -3126,7 +3126,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>GOSSIP Core is shutting down...</source>
+        <source>GOSSIP Core is shutting down</source>
         <translation>GOSSIP Core is shutting down...</translation>
     </message>
     <message>
@@ -3671,7 +3671,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>This year</translation>
     </message>
     <message>
-        <source>Range...</source>
+        <source>Range</source>
         <translation>Range...</translation>
     </message>
     <message>
@@ -4430,7 +4430,7 @@ for example: alertnotify=echo %%s | mail -s "GOSSIP Alert" admin@foo.com
         <translation>Found enough users, signing ( waiting %s )</translation>
     </message>
     <message>
-        <source>Found enough users, signing ...</source>
+        <source>Found enough users, signing </source>
         <translation>Found enough users, signing ...</translation>
     </message>
     <message>
@@ -4446,7 +4446,7 @@ for example: alertnotify=echo %%s | mail -s "GOSSIP Alert" admin@foo.com
         <translation>If &lt;category&gt; is not supplied, output all debugging information.</translation>
     </message>
     <message>
-        <source>Importing...</source>
+        <source>Importing</source>
         <translation>Importing...</translation>
     </message>
     <message>
@@ -4618,23 +4618,23 @@ for example: alertnotify=echo %%s | mail -s "GOSSIP Alert" admin@foo.com
         <translation>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</translation>
     </message>
     <message>
-        <source>Loading addresses...</source>
+        <source>Loading addresses</source>
         <translation>Loading addresses...</translation>
     </message>
     <message>
-        <source>Loading block index...</source>
+        <source>Loading block index</source>
         <translation>Loading block index...</translation>
     </message>
     <message>
-        <source>Loading budget cache...</source>
+        <source>Loading budget cache</source>
         <translation>Loading budget cache...</translation>
     </message>
     <message>
-        <source>Loading masternode cache...</source>
+        <source>Loading masternode cache</source>
         <translation>Loading masternode cache...</translation>
     </message>
     <message>
-        <source>Loading masternode payment cache...</source>
+        <source>Loading masternode payment cache</source>
         <translation>Loading masternode payment cache...</translation>
     </message>
     <message>
@@ -4642,7 +4642,7 @@ for example: alertnotify=echo %%s | mail -s "GOSSIP Alert" admin@foo.com
         <translation>Loading wallet... (%3.2f %%)</translation>
     </message>
     <message>
-        <source>Loading wallet...</source>
+        <source>Loading wallet</source>
         <translation>Loading wallet...</translation>
     </message>
     <message>
@@ -4682,7 +4682,7 @@ for example: alertnotify=echo %%s | mail -s "GOSSIP Alert" admin@foo.com
         <translation>Missing input transaction information.</translation>
     </message>
     <message>
-        <source>Mixing in progress...</source>
+        <source>Mixing in progress</source>
         <translation>Mixing in progress...</translation>
     </message>
     <message>
@@ -4810,7 +4810,7 @@ for example: alertnotify=echo %%s | mail -s "GOSSIP Alert" admin@foo.com
         <translation>Rescan the block chain for missing wallet transactions</translation>
     </message>
     <message>
-        <source>Rescanning...</source>
+        <source>Rescanning</source>
         <translation>Rescanning...</translation>
     </message>
     <message>
@@ -4958,23 +4958,23 @@ for example: alertnotify=echo %%s | mail -s "GOSSIP Alert" admin@foo.com
         <translation>Synchronization finished</translation>
     </message>
     <message>
-        <source>Synchronization pending...</source>
+        <source>Synchronization pending</source>
         <translation>Synchronization pending...</translation>
     </message>
     <message>
-        <source>Synchronizing budgets...</source>
+        <source>Synchronizing budgets</source>
         <translation>Synchronizing budgets...</translation>
     </message>
     <message>
-        <source>Synchronizing masternode winners...</source>
+        <source>Synchronizing masternode winners</source>
         <translation>Synchronizing masternode winners...</translation>
     </message>
     <message>
-        <source>Synchronizing masternodes...</source>
+        <source>Synchronizing masternodes</source>
         <translation>Synchronizing masternodes...</translation>
     </message>
     <message>
-        <source>Synchronizing sporks...</source>
+        <source>Synchronizing sporks</source>
         <translation>Synchronizing sporks...</translation>
     </message>
     <message>
@@ -5078,11 +5078,11 @@ for example: alertnotify=echo %%s | mail -s "GOSSIP Alert" admin@foo.com
         <translation>Value more than Obfuscation pool maximum allows.</translation>
     </message>
     <message>
-        <source>Verifying blocks...</source>
+        <source>Verifying blocks</source>
         <translation>Verifying blocks...</translation>
     </message>
     <message>
-        <source>Verifying wallet...</source>
+        <source>Verifying wallet</source>
         <translation>Verifying wallet...</translation>
     </message>
     <message>
@@ -5122,7 +5122,7 @@ for example: alertnotify=echo %%s | mail -s "GOSSIP Alert" admin@foo.com
         <translation>Warning: Unsupported argument -debugnet ignored, use -debug=net.</translation>
     </message>
     <message>
-        <source>Will retry...</source>
+        <source>Will retry</source>
         <translation>Will retry...</translation>
     </message>
     <message>
@@ -5138,7 +5138,7 @@ for example: alertnotify=echo %%s | mail -s "GOSSIP Alert" admin@foo.com
         <translation>Your transaction was accepted into the pool!</translation>
     </message>
     <message>
-        <source>Zapping all transactions from wallet...</source>
+        <source>Zapping all transactions from wallet</source>
         <translation>Zapping all transactions from wallet...</translation>
     </message>
     <message>

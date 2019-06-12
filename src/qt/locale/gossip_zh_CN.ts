@@ -442,7 +442,7 @@
         <translation>显示Qt的相关信息</translation>
     </message>
     <message>
-        <source>&amp;Options...</source>
+        <source>&amp;Options</source>
         <translation>&amp;Q选项</translation>
     </message>
     <message>
@@ -454,7 +454,7 @@
         <translation>显示或隐藏主窗口</translation>
     </message>
     <message>
-        <source>&amp;Encrypt Wallet...</source>
+        <source>&amp;Encrypt Wallet</source>
         <translation>&amp;E加密钱包...</translation>
     </message>
     <message>
@@ -462,7 +462,7 @@
         <translation>加密属于您钱包的私钥</translation>
     </message>
     <message>
-        <source>&amp;Backup Wallet...</source>
+        <source>&amp;Backup Wallet</source>
         <translation>&amp;B备份钱包...</translation>
     </message>
     <message>
@@ -470,7 +470,7 @@
         <translation>备份钱包至其他目录</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
+        <source>&amp;Change Passphrase</source>
         <translation>&amp;C修改密码</translation>
     </message>
     <message>
@@ -478,7 +478,7 @@
         <translation>修改用于钱包加密的密码</translation>
     </message>
     <message>
-        <source>&amp;Unlock Wallet...</source>
+        <source>&amp;Unlock Wallet</source>
         <translation>&amp;U解锁钱包...</translation>
     </message>
     <message>
@@ -490,11 +490,11 @@
         <translation>&amp;L锁定钱包</translation>
     </message>
     <message>
-        <source>Sign &amp;message...</source>
+        <source>Sign &amp;message</source>
         <translation>S签名&amp;消息</translation>
     </message>
     <message>
-        <source>&amp;Verify message...</source>
+        <source>&amp;Verify message</source>
         <translation>&amp;验证消息</translation>
     </message>
     <message>
@@ -550,7 +550,7 @@
         <translation>查看自动备份建立的钱包</translation>
     </message>
     <message>
-        <source>&amp;Sending addresses...</source>
+        <source>&amp;Sending addresses</source>
         <translation>&amp;S发送地址...</translation>
     </message>
     <message>
@@ -558,7 +558,7 @@
         <translation>查看已发送地址和标签</translation>
     </message>
     <message>
-        <source>&amp;Receiving addresses...</source>
+        <source>&amp;Receiving addresses</source>
         <translation>&amp;R接收地址</translation>
     </message>
     <message>
@@ -566,7 +566,7 @@
         <translation>查看已接收地址和标签</translation>
     </message>
     <message>
-        <source>Open &amp;URI...</source>
+        <source>Open &amp;URI</source>
         <translation>O打开&amp;URI</translation>
     </message>
     <message>
@@ -610,7 +610,7 @@
         <translation>发送数字货币到GOSSIP地址</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and gossip: URIs)</source>
+        <source>Request payments</source>
         <translation>请求支付（生成二维码和gossip：URIs）</translation>
     </message>
     <message>
@@ -703,19 +703,19 @@
 </numerusform></translation>
     </message>
     <message>
-        <source>Synchronizing with network...</source>
+        <source>Synchronizing with network</source>
         <translation>与网络同步</translation>
     </message>
     <message>
-        <source>Importing blocks from disk...</source>
+        <source>Importing blocks from disk</source>
         <translation>从硬盘导入区块…</translation>
     </message>
     <message>
-        <source>Reindexing blocks on disk...</source>
+        <source>Reindexing blocks on disk</source>
         <translation>在硬盘重建索引区块</translation>
     </message>
     <message>
-        <source>No block source available...</source>
+        <source>No block source available</source>
         <translation>没有区块源可用</translation>
     </message>
     <message>
@@ -743,7 +743,7 @@
         <translation>%1 落后</translation>
     </message>
     <message>
-        <source>Catching up...</source>
+        <source>Catching up</source>
         <translation>追赶…</translation>
     </message>
     <message>
@@ -1177,7 +1177,7 @@ Address: %4
 <context>
     <name>QRImageWidget</name>
     <message>
-        <source>&amp;Save Image...</source>
+        <source>&amp;Save Image</source>
         <translation>&amp;保存图片...</translation>
     </message>
     <message>
@@ -1262,7 +1262,7 @@ Address: %4
         <translation>复制&amp;地址</translation>
     </message>
     <message>
-        <source>&amp;Save Image...</source>
+        <source>&amp;Save Image</source>
         <translation>&amp;保存图片...</translation>
     </message>
     <message>

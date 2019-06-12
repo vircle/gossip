@@ -448,7 +448,7 @@
         <translation>Qtについての情報を表示する</translation>
     </message>
     <message>
-        <source>&amp;Options...</source>
+        <source>&amp;Options</source>
         <translation>オプション</translation>
     </message>
     <message>
@@ -460,7 +460,7 @@
         <translation>メインウィンドウの表示/非表示</translation>
     </message>
     <message>
-        <source>&amp;Encrypt Wallet...</source>
+        <source>&amp;Encrypt Wallet</source>
         <translation>&amp;ウォレットの暗号化</translation>
     </message>
     <message>
@@ -468,7 +468,7 @@
         <translation>あなたのウォレットに保存されているプライベートキーを暗号化</translation>
     </message>
     <message>
-        <source>&amp;Backup Wallet...</source>
+        <source>&amp;Backup Wallet</source>
         <translation>&amp;ウォレットのバックアップ</translation>
     </message>
     <message>
@@ -476,7 +476,7 @@
         <translation>ウォレットデータを他の場所へ保存します</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
+        <source>&amp;Change Passphrase</source>
         <translation>&amp;パスワードの変更</translation>
     </message>
     <message>
@@ -484,7 +484,7 @@
         <translation>ウォレットの暗号化にしようしていたパスワードを変更します</translation>
     </message>
     <message>
-        <source>&amp;Unlock Wallet...</source>
+        <source>&amp;Unlock Wallet</source>
         <translation>&amp;ウォレットのアンロック</translation>
     </message>
     <message>
@@ -496,11 +496,11 @@
         <translation>&amp;ウォレットのロック</translation>
     </message>
     <message>
-        <source>Sign &amp;message...</source>
+        <source>Sign &amp;message</source>
         <translation>&amp;メッセージの署名...</translation>
     </message>
     <message>
-        <source>&amp;Verify message...</source>
+        <source>&amp;Verify message</source>
         <translation>&amp;メッセージの確認</translation>
     </message>
     <message>
@@ -556,7 +556,7 @@
         <translation>自動で作成されたウォレットのバックアップを確認する</translation>
     </message>
     <message>
-        <source>&amp;Sending addresses...</source>
+        <source>&amp;Sending addresses</source>
         <translation>&amp;送金アドレス</translation>
     </message>
     <message>
@@ -564,7 +564,7 @@
         <translation>送金アドレス・ラベルの一覧を確認する</translation>
     </message>
     <message>
-        <source>&amp;Receiving addresses...</source>
+        <source>&amp;Receiving addresses</source>
         <translation>&amp;受け取りアドレス</translation>
     </message>
     <message>
@@ -572,7 +572,7 @@
         <translation>受け取りアドレス・ラベルの一覧を確認する</translation>
     </message>
     <message>
-        <source>Open &amp;URI...</source>
+        <source>Open &amp;URI</source>
         <translation>&amp;URI を開く</translation>
     </message>
     <message>
@@ -618,7 +618,7 @@
         <translation>GOSSIPアドレスへ送金する</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and gossip: URIs)</source>
+        <source>Request payments</source>
         <translation>支払いを作成する (QRコード または gossip: URIを作成)</translation>
     </message>
     <message>
@@ -712,19 +712,19 @@
         </translation>
     </message>
     <message>
-        <source>Synchronizing with network...</source>
+        <source>Synchronizing with network</source>
         <translation>ネットワークと同期中</translation>
     </message>
     <message>
-        <source>Importing blocks from disk...</source>
+        <source>Importing blocks from disk</source>
         <translation>ブロックデータをdatからインポート中</translation>
     </message>
     <message>
-        <source>Reindexing blocks on disk...</source>
+        <source>Reindexing blocks on disk</source>
         <translation>ブロックデータを整理中</translation>
     </message>
     <message>
-        <source>No block source available...</source>
+        <source>No block source available</source>
         <translation>利用可能なブロックデータが見つかりません</translation>
     </message>
     <message>
@@ -764,7 +764,7 @@
         <translation>%1 前</translation>
     </message>
     <message>
-        <source>Catching up...</source>
+        <source>Catching up</source>
         <translation>更新中</translation>
     </message>
     <message>
@@ -852,7 +852,7 @@ Address: %4
         <translation>zGOSSによる匿名化</translation>
     </message>
     <message>
-        <source>&amp;Multisignature creation...</source>
+        <source>&amp;Multisignature creation</source>
         <translation>&amp;マルチシグネチャアドレス生成...</translation>
     </message>
     <message>
@@ -860,7 +860,7 @@ Address: %4
         <translation>新しいマルチシグネチャアドレスを生成し、ウォレットへ追加します</translation>
     </message>
     <message>
-        <source>&amp;Multisignature spending...</source>
+        <source>&amp;Multisignature spending</source>
         <translation>&amp;マルチシグネチャアドレスでの支払い...</translation>
     </message>
     <message>
@@ -868,7 +868,7 @@ Address: %4
         <translation>マルチシグネチャアドレスから支払います</translation>
     </message>
     <message>
-        <source>&amp;Multisignature signing...</source>
+        <source>&amp;Multisignature signing</source>
         <translation>&amp;マルチシグネチャアドレスでの署名...</translation>
     </message>
     <message>
@@ -2050,11 +2050,11 @@ https://www.transifex.com/gossip-project/gossip-project-translations</translatio
         <translation>watch-onlyアドレスへの未成熟なステーキング・マスターノード報酬</translation>
     </message>
     <message>
-        <source>Locked GOSS or Masternode collaterals. These are excluded from zGOSS minting.</source>
+        <source>Locked GOSS Masternode collaterals.</source>
         <translation>ロックされたGOSS・マスターノードの担保。zGOSSの変換対象から除外されます。</translation>
     </message>
     <message>
-        <source>Locked:</source>
+        <source>MN Locked:</source>
         <translation>ロック済:</translation>
     </message>
     <message>
@@ -2294,14 +2294,14 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
         <translation>マスターノード設定ファイル(masternode.conf)の読み込みでエラーが発生しました %1</translation>
     </message>
     <message>
-        <source>GOSSIP Core didn&apos;t yet exit safely...</source>
+        <source>GOSSIP Core didn&apos;t yet exit safely</source>
         <translation>GOSSIP コアは正常に停止していません...</translation>
     </message>
 </context>
 <context>
     <name>QRImageWidget</name>
     <message>
-        <source>&amp;Save Image...</source>
+        <source>&amp;Save Image</source>
         <translation>&amp;画像の保存...</translation>
     </message>
     <message>
@@ -2612,7 +2612,7 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
         <translation>不明</translation>
     </message>
     <message>
-        <source>Fetching...</source>
+        <source>Fetching</source>
         <translation>Fetching...</translation>
     </message>
     <message>
@@ -2758,7 +2758,7 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
         <translation>アドレスのコピー</translation>
     </message>
     <message>
-        <source>&amp;Save Image...</source>
+        <source>&amp;Save Image</source>
         <translation>イメージの保存</translation>
     </message>
     <message>
@@ -2844,7 +2844,7 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
         <translation>コインコントロール</translation>
     </message>
     <message>
-        <source>Inputs...</source>
+        <source>Inputs</source>
         <translation>インプット</translation>
     </message>
     <message>
@@ -2924,7 +2924,7 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
         <translation>トランザクション手数料:</translation>
     </message>
     <message>
-        <source>Choose...</source>
+        <source>Choose</source>
         <translation>選択...</translation>
     </message>
     <message>
@@ -3174,7 +3174,7 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
         <translation>(ラベルなし)</translation>
     </message>
     <message>
-        <source>Open Coin Control...</source>
+        <source>Open Coin Control</source>
         <translation>コインコントロールを開く...</translation>
     </message>
     <message>
@@ -3276,7 +3276,7 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>GOSSIP Core is shutting down...</source>
+        <source>GOSSIP Core is shutting down</source>
         <translation>GOSSIP コアは停止中です...</translation>
     </message>
     <message>
@@ -3895,7 +3895,7 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
         <translation>今年</translation>
     </message>
     <message>
-        <source>Range...</source>
+        <source>Range</source>
         <translation>範囲指定</translation>
     </message>
     <message>
@@ -4684,7 +4684,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GOSSIP Alert&quot; admin@foo.c
         <translation>十分なユーザーを発見しました。署名中 ( %s を待機)</translation>
     </message>
     <message>
-        <source>Found enough users, signing ...</source>
+        <source>Found enough users, signing </source>
         <translation>十分なユーザーを発見しました。署名中...</translation>
     </message>
     <message>
@@ -4700,7 +4700,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GOSSIP Alert&quot; admin@foo.c
         <translation>もし &lt;カテゴリ&gt; が与えられなければ、全てのデバッグ情報を出力します。</translation>
     </message>
     <message>
-        <source>Importing...</source>
+        <source>Importing</source>
         <translation>インポート中...</translation>
     </message>
     <message>
@@ -4868,23 +4868,23 @@ for example: alertnotify=echo %%s | mail -s &quot;GOSSIP Alert&quot; admin@foo.c
         <translation>接続を待機する&lt;ポート&gt; (デフォルト: %u , テストネット: %u)</translation>
     </message>
     <message>
-        <source>Loading addresses...</source>
+        <source>Loading addresses</source>
         <translation>アドレスを読み込み中...</translation>
     </message>
     <message>
-        <source>Loading block index...</source>
+        <source>Loading block index</source>
         <translation>ブロックインデックスを読み込み中...</translation>
     </message>
     <message>
-        <source>Loading budget cache...</source>
+        <source>Loading budget cache</source>
         <translation>budgetキャッシュを読み込み中...</translation>
     </message>
     <message>
-        <source>Loading masternode cache...</source>
+        <source>Loading masternode cache</source>
         <translation>マスターノードキャッシュを読み込み中...</translation>
     </message>
     <message>
-        <source>Loading masternode payment cache...</source>
+        <source>Loading masternode payment cache</source>
         <translation>マスターノードペイメントキャッシュを読み込み中...</translation>
     </message>
     <message>
@@ -4892,7 +4892,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GOSSIP Alert&quot; admin@foo.c
         <translation>ウォレットを読み込み中... (%3.2f %%)</translation>
     </message>
     <message>
-        <source>Loading wallet...</source>
+        <source>Loading wallet</source>
         <translation>ウォレットを読み込み中...</translation>
     </message>
     <message>
@@ -4932,7 +4932,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GOSSIP Alert&quot; admin@foo.c
         <translation>入力されたトランザクション情報が間違っています。</translation>
     </message>
     <message>
-        <source>Mixing in progress...</source>
+        <source>Mixing in progress</source>
         <translation>Mixing in progress...</translation>
     </message>
     <message>
@@ -5060,7 +5060,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GOSSIP Alert&quot; admin@foo.c
         <translation>表示されていないトランザクションのためブロックチェックを再スキャンする</translation>
     </message>
     <message>
-        <source>Rescanning...</source>
+        <source>Rescanning</source>
         <translation>再スキャン中...</translation>
     </message>
     <message>
@@ -5208,23 +5208,23 @@ for example: alertnotify=echo %%s | mail -s &quot;GOSSIP Alert&quot; admin@foo.c
         <translation>同期完了</translation>
     </message>
     <message>
-        <source>Synchronization pending...</source>
+        <source>Synchronization pending</source>
         <translation>同期中...</translation>
     </message>
     <message>
-        <source>Synchronizing budgets...</source>
+        <source>Synchronizing budgets</source>
         <translation>予算案の同期中...</translation>
     </message>
     <message>
-        <source>Synchronizing masternode winners...</source>
+        <source>Synchronizing masternode winners</source>
         <translation>マスターノードのウィナーを同期中...</translation>
     </message>
     <message>
-        <source>Synchronizing masternodes...</source>
+        <source>Synchronizing masternodes</source>
         <translation>マスターノードの同期中...</translation>
     </message>
     <message>
-        <source>Synchronizing sporks...</source>
+        <source>Synchronizing sporks</source>
         <translation>sporkを同期中...</translation>
     </message>
     <message>
@@ -5328,11 +5328,11 @@ for example: alertnotify=echo %%s | mail -s &quot;GOSSIP Alert&quot; admin@foo.c
         <translation>難読化プールの最大値以上の値です。</translation>
     </message>
     <message>
-        <source>Verifying blocks...</source>
+        <source>Verifying blocks</source>
         <translation>ブロックを確認中...</translation>
     </message>
     <message>
-        <source>Verifying wallet...</source>
+        <source>Verifying wallet</source>
         <translation>ウォレットを確認中...</translation>
     </message>
     <message>
@@ -5372,7 +5372,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GOSSIP Alert&quot; admin@foo.c
         <translation>警告: サポートされていないオプション -debugnet ignored があります。 -debug=net を使ってください。</translation>
     </message>
     <message>
-        <source>Will retry...</source>
+        <source>Will retry</source>
         <translation>リトライします...</translation>
     </message>
     <message>
@@ -5388,7 +5388,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GOSSIP Alert&quot; admin@foo.c
         <translation>トランザクションはプールに承認されました!</translation>
     </message>
     <message>
-        <source>Zapping all transactions from wallet...</source>
+        <source>Zapping all transactions from wallet</source>
         <translation>全てのトランザクションをウォレットからzapしています...</translation>
     </message>
     <message>
@@ -5490,7 +5490,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GOSSIP Alert&quot; admin@foo.c
         <translation>Tor 秘匿サービスの自動生成(デフォルト: %d)</translation>
     </message>
     <message>
-        <source>Calculating missing accumulators...</source>
+        <source>Calculating missing accumulators</source>
         <translation>ロストしたアキュムレータを計算しています...</translation>
     </message>
     <message>
@@ -5550,7 +5550,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GOSSIP Alert&quot; admin@foo.c
         <translation>3回の変換がなされていないので、利用できません</translation>
     </message>
     <message>
-        <source>Loading sporks...</source>
+        <source>Loading sporks</source>
         <translation>sporksを読み込み中...</translation>
     </message>
     <message>
@@ -5558,15 +5558,15 @@ for example: alertnotify=echo %%s | mail -s &quot;GOSSIP Alert&quot; admin@foo.c
         <translation>ゼロコインへの自動変換の比率(10-100 まで デフォルト: %u)</translation>
     </message>
     <message>
-        <source>Preparing for resync...</source>
+        <source>Preparing for resync</source>
         <translation>再同期の準備中...</translation>
     </message>
     <message>
-        <source>Recalculating coin supply may take 30-60 minutes...</source>
+        <source>Recalculating coin supply may take 30-60 minutes</source>
         <translation>供給量を再計算しています。30-60分ほどかかるかもしれません...</translation>
     </message>
     <message>
-        <source>Recalculating supply statistics may take 30-60 minutes...</source>
+        <source>Recalculating supply statistics may take 30-60 minutes</source>
         <translation>供給量の統計データを再計算しています。30-60分ほどかかるかもしれません...</translation>
     </message>
     <message>
@@ -5680,7 +5680,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GOSSIP Alert&quot; admin@foo.c
         <translation>リセット</translation>
     </message>
     <message>
-        <source>Coin Control...</source>
+        <source>Coin Control</source>
         <translation>コインコントロール...</translation>
     </message>
     <message>
@@ -6002,7 +6002,7 @@ To change the percentage (no restart required):
         <translation>秒でミント完了。使用した denom.:\n</translation>
     </message>
     <message>
-        <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware. \nPlease be patient...</source>
+        <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware. \nPlease be patient</source>
         <translation>ミントしたゼロコインのリセットを開始: ブロックチェーン全体を再スキャン中です。コンピュータの性能に応じ、30分程度かかることがあります。\nしばらくお待ち下さい...</translation>
     </message>
     <message>
@@ -6050,7 +6050,7 @@ To change the percentage (no restart required):
         <translation>送金の確認</translation>
     </message>
     <message>
-        <source>Spending Zerocoin.\nComputationally expensive, might need several minutes depending on the selected Security Level and your hardware. \nPlease be patient...</source>
+        <source>Spending Zerocoin.\nComputationally expensive, might need several minutes depending on the selected Security Level and your hardware. \nPlease be patient</source>
         <translation>ゼロコインの送金中です。\nコンピューティングリソースを使用しますので、性能、選択したセキュリティレベルに応じ時間がかかります。\nしばらくお待ち下さい...</translation>
     </message>
     <message>

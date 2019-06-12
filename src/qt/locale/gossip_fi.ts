@@ -439,7 +439,7 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Näytä tietoja Qt:stä</translation>
     </message>
     <message>
-        <source>&amp;Options...</source>
+        <source>&amp;Options</source>
         <translation>&amp;Vaihtoehdot...</translation>
     </message>
     <message>
@@ -451,7 +451,7 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Näytä tai piilota pääikkuna</translation>
     </message>
     <message>
-        <source>&amp;Encrypt Wallet...</source>
+        <source>&amp;Encrypt Wallet</source>
         <translation>&amp;Salaa lompakko...</translation>
     </message>
     <message>
@@ -459,7 +459,7 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Salaa yksityisavaimet jotka kuuluvat lompakkoosi</translation>
     </message>
     <message>
-        <source>&amp;Backup Wallet...</source>
+        <source>&amp;Backup Wallet</source>
         <translation>&amp;Varmuuskopioi lompakko...</translation>
     </message>
     <message>
@@ -467,7 +467,7 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Varmuuskopioi lompakko toiseen sijaintiin</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
+        <source>&amp;Change Passphrase</source>
         <translation>&amp;Vaihda salausavain...</translation>
     </message>
     <message>
@@ -475,7 +475,7 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Vaihda salausavain, jota käytetään lompakon salaukseen</translation>
     </message>
     <message>
-        <source>&amp;Unlock Wallet...</source>
+        <source>&amp;Unlock Wallet</source>
         <translation>&amp;Avaa lompakko...</translation>
     </message>
     <message>
@@ -487,11 +487,11 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>&amp;Lukitse lompakko</translation>
     </message>
     <message>
-        <source>Sign &amp;message...</source>
+        <source>Sign &amp;message</source>
         <translation>Allekirjoita &amp;viesti...</translation>
     </message>
     <message>
-        <source>&amp;Verify message...</source>
+        <source>&amp;Verify message</source>
         <translation>Vahvista &amp;viesti...</translation>
     </message>
     <message>
@@ -547,7 +547,7 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Näytä automaattisesti luodut varmuuskopiot lompakosta</translation>
     </message>
     <message>
-        <source>&amp;Sending addresses...</source>
+        <source>&amp;Sending addresses</source>
         <translation>&amp;Lähettävät osoitteet...</translation>
     </message>
     <message>
@@ -555,7 +555,7 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Näytä lista käytettävistä lähettävistä osoitteista ja nimikkeistä</translation>
     </message>
     <message>
-        <source>&amp;Receiving addresses...</source>
+        <source>&amp;Receiving addresses</source>
         <translation>&amp;Vastaanottavat osoitteet...</translation>
     </message>
     <message>
@@ -563,8 +563,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Näytä lista käytettävistä vastaanottavista osoitteista ja nimikkeistä</translation>
     </message>
     <message>
-        <source>Open &amp;URI...</source>
-        <translation>Avaa &amp;URI...</translation>
+        <source>Open &amp;URI</source>
+        <translation>Avaa &amp;URI</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -599,7 +599,7 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Lähetä kolikkoja GOSSIP osoitteeseen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and gossip: URIs)</source>
+        <source>Request payments</source>
         <translation>Pyydä maksuja (Generoi QR koodeja ja gossip: URIja)</translation>
     </message>
     <message>
@@ -679,19 +679,19 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>GOSSIP Ydin asiakasohjelma</translation>
     </message>
     <message>
-        <source>Synchronizing with network...</source>
+        <source>Synchronizing with network</source>
         <translation>Synkronoi verkon kanssa...</translation>
     </message>
     <message>
-        <source>Importing blocks from disk...</source>
+        <source>Importing blocks from disk</source>
         <translation>Lohkojen tuonti levyltä...</translation>
     </message>
     <message>
-        <source>Reindexing blocks on disk...</source>
+        <source>Reindexing blocks on disk</source>
         <translation>Indeksöidään lohkoja levyltä uudestaan</translation>
     </message>
     <message>
-        <source>No block source available...</source>
+        <source>No block source available</source>
         <translation>Lohkon lähdettä ei saatavilla...</translation>
     </message>
     <message>
@@ -707,7 +707,7 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>%1 takana</translation>
     </message>
     <message>
-        <source>Catching up...</source>
+        <source>Catching up</source>
         <translation>Otetaan kiinni...</translation>
     </message>
     <message>
@@ -1491,7 +1491,7 @@ Please check the address and try again.</source>
 <context>
     <name>QRImageWidget</name>
     <message>
-        <source>&amp;Save Image...</source>
+        <source>&amp;Save Image</source>
         <translation>&amp;Tallenna Kuva...</translation>
     </message>
     <message>
@@ -1674,7 +1674,7 @@ Please check the address and try again.</source>
         <translation>Tuntematon</translation>
     </message>
     <message>
-        <source>Fetching...</source>
+        <source>Fetching</source>
         <translation>Haetaan...</translation>
     </message>
 </context>
@@ -1780,7 +1780,7 @@ Please check the address and try again.</source>
         <translation>Kopioi &amp;Osoite</translation>
     </message>
     <message>
-        <source>&amp;Save Image...</source>
+        <source>&amp;Save Image</source>
         <translation>&amp;Tallenna Kuva...</translation>
     </message>
     <message>
@@ -1902,7 +1902,7 @@ Please check the address and try again.</source>
         <translation>0 GOSS</translation>
     </message>
     <message>
-        <source>Choose...</source>
+        <source>Choose</source>
         <translation>Valitse...</translation>
     </message>
     <message>
@@ -2072,7 +2072,7 @@ Please check the address and try again.</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>GOSSIP Core is shutting down...</source>
+        <source>GOSSIP Core is shutting down</source>
         <translation>GOSSIP core sammuu...</translation>
     </message>
     <message>
@@ -2615,7 +2615,7 @@ Please check the address and try again.</source>
         <translation>Viimeistellään rahansiirto.</translation>
     </message>
     <message>
-        <source>Importing...</source>
+        <source>Importing</source>
         <translation>Tuodaan...</translation>
     </message>
     <message>
@@ -2647,15 +2647,15 @@ Please check the address and try again.</source>
         <translation>&lt;category&gt; voi olla:</translation>
     </message>
     <message>
-        <source>Loading addresses...</source>
+        <source>Loading addresses</source>
         <translation>Lataa osoitteita...</translation>
     </message>
     <message>
-        <source>Loading block index...</source>
+        <source>Loading block index</source>
         <translation>Lataa lohkoindeksiä...</translation>
     </message>
     <message>
-        <source>Loading wallet...</source>
+        <source>Loading wallet</source>
         <translation>Lataa lompakkoa...</translation>
     </message>
     <message>
@@ -2667,7 +2667,7 @@ Please check the address and try again.</source>
         <translation>Vaihtoehdot:</translation>
     </message>
     <message>
-        <source>Rescanning...</source>
+        <source>Rescanning</source>
         <translation>Skannaa uudelleen...</translation>
     </message>
     <message>
@@ -2751,11 +2751,11 @@ Please check the address and try again.</source>
         <translation>Käytä testiverkkoa</translation>
     </message>
     <message>
-        <source>Verifying blocks...</source>
+        <source>Verifying blocks</source>
         <translation>Tarkistaa lohkoja...</translation>
     </message>
     <message>
-        <source>Verifying wallet...</source>
+        <source>Verifying wallet</source>
         <translation>Tarkistaa lompakkoa...</translation>
     </message>
     <message>
@@ -2775,7 +2775,7 @@ Please check the address and try again.</source>
         <translation>Varoitus: Tämä versio on vanha, päivitys vaadittu!</translation>
     </message>
     <message>
-        <source>Will retry...</source>
+        <source>Will retry</source>
         <translation>Yrittää uudelleen...</translation>
     </message>
     <message>

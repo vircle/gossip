@@ -346,7 +346,7 @@
         <translation>&amp;Transações</translation>
     </message>
     <message>
-        <source>&amp;Backup Wallet...</source>
+        <source>&amp;Backup Wallet</source>
         <translation>Carteira de backup</translation>
     </message>
     <message>
@@ -579,7 +579,7 @@
         <translation>Taxa de transação:</translation>
     </message>
     <message>
-        <source>Choose...</source>
+        <source>Choose</source>
         <translation>Escolha...</translation>
     </message>
     <message>
@@ -936,7 +936,7 @@
         <translation>Finalizando transação.</translation>
     </message>
     <message>
-        <source>Importing...</source>
+        <source>Importing</source>
         <translation>Importando...</translation>
     </message>
     <message>
@@ -956,7 +956,7 @@
         <translation>Script inválido detectado.</translation>
     </message>
     <message>
-        <source>Loading wallet...</source>
+        <source>Loading wallet</source>
         <translation>Carregando carteira...</translation>
     </message>
     <message>
@@ -996,7 +996,7 @@
         <translation>Analise novamente a cadeia de blocos para ver se há transações de carteira em falta</translation>
     </message>
     <message>
-        <source>Rescanning...</source>
+        <source>Rescanning</source>
         <translation>Rescanning ...</translation>
     </message>
     <message>
@@ -1140,23 +1140,23 @@
         <translation>Sincronização finalizada</translation>
     </message>
     <message>
-        <source>Synchronization pending...</source>
+        <source>Synchronization pending</source>
         <translation>Sincronizando pendencias...</translation>
     </message>
     <message>
-        <source>Synchronizing budgets...</source>
+        <source>Synchronizing budgets</source>
         <translation>Sincronizando orçamentos...</translation>
     </message>
     <message>
-        <source>Synchronizing masternode winners...</source>
+        <source>Synchronizing masternode winners</source>
         <translation>Sincronizando os masternode vencedores...</translation>
     </message>
     <message>
-        <source>Synchronizing masternodes...</source>
+        <source>Synchronizing masternodes</source>
         <translation>Sincronizando masternodes ...</translation>
     </message>
     <message>
-        <source>Synchronizing sporks...</source>
+        <source>Synchronizing sporks</source>
         <translation>Sincronizando sporks ...</translation>
     </message>
     <message>
@@ -1256,11 +1256,11 @@
         <translation>Valor maior do que o máximo permitido pela pool.</translation>
     </message>
     <message>
-        <source>Verifying blocks...</source>
+        <source>Verifying blocks</source>
         <translation>verificando blocos...</translation>
     </message>
     <message>
-        <source>Verifying wallet...</source>
+        <source>Verifying wallet</source>
         <translation>verificando carteira...</translation>
     </message>
     <message>

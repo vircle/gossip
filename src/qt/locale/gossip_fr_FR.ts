@@ -394,7 +394,7 @@
         <translation>Afficher les information concernant Qt</translation>
     </message>
     <message>
-        <source>&amp;Options...</source>
+        <source>&amp;Options</source>
         <translation>Options...</translation>
     </message>
     <message>
@@ -406,7 +406,7 @@
         <translation>Afficher ou cacher la fenêtre principale</translation>
     </message>
     <message>
-        <source>&amp;Encrypt Wallet...</source>
+        <source>&amp;Encrypt Wallet</source>
         <translation>Crypter le portefeuille...</translation>
     </message>
     <message>
@@ -414,7 +414,7 @@
         <translation>Crypter les clés privées appartenant à votre portefeuille</translation>
     </message>
     <message>
-        <source>&amp;Backup Wallet...</source>
+        <source>&amp;Backup Wallet</source>
         <translation>Sauvegarde du portefeuille...</translation>
     </message>
     <message>
@@ -422,7 +422,7 @@
         <translation>Sauvegarder ailleurs le portefeuille </translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
+        <source>&amp;Change Passphrase</source>
         <translation>Changer la phrase de sécurité...</translation>
     </message>
     <message>
@@ -430,7 +430,7 @@
         <translation>Changer la phrase secrète utilisée pour l'encryptage du portefeuille</translation>
     </message>
     <message>
-        <source>&amp;Unlock Wallet...</source>
+        <source>&amp;Unlock Wallet</source>
         <translation>Déverrouiller le portefeuille</translation>
     </message>
     <message>
@@ -442,12 +442,12 @@
         <translation>Verrouiller le portefeuille</translation>
     </message>
     <message>
-        <source>Sign &amp;message...</source>
-        <translation>Signer le message...</translation>
+        <source>Sign &amp;message</source>
+        <translation>Signer le message</translation>
     </message>
     <message>
-        <source>&amp;Verify message...</source>
-        <translation>Vérifier le message...</translation>
+        <source>&amp;Verify message</source>
+        <translation>Vérifier le message</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -494,7 +494,7 @@
         <translation>Montrer les sauvegardes de portefeuille créées automatiquements</translation>
     </message>
     <message>
-        <source>&amp;Sending addresses...</source>
+        <source>&amp;Sending addresses</source>
         <translation>Adresses d'envoie</translation>
     </message>
     <message>
@@ -502,7 +502,7 @@
         <translation>Montrer la liste des adresses et libellés d'envoies utilisés</translation>
     </message>
     <message>
-        <source>&amp;Receiving addresses...</source>
+        <source>&amp;Receiving addresses</source>
         <translation>Adresses de réception</translation>
     </message>
     <message>
@@ -510,8 +510,8 @@
         <translation>Montrer la liste des adresses et libellés de réception utilisés</translation>
     </message>
     <message>
-        <source>Open &amp;URI...</source>
-        <translation>Ouvir URI...</translation>
+        <source>Open &amp;URI</source>
+        <translation>Ouvir URI</translation>
     </message>
     <message>
         <source>Synchronizing additional data: %p%</source>
@@ -566,15 +566,15 @@
         <translation>Crypter et décrypter les clés privées en utilisant une phrase secrète</translation>
     </message>
     <message>
-        <source>Synchronizing with network...</source>
+        <source>Synchronizing with network</source>
         <translation>Synchronisation avec le réseau</translation>
     </message>
     <message>
-        <source>Importing blocks from disk...</source>
+        <source>Importing blocks from disk</source>
         <translation>Importation des bloques depuis le disque</translation>
     </message>
     <message>
-        <source>Reindexing blocks on disk...</source>
+        <source>Reindexing blocks on disk</source>
         <translation>Ré-indexation des bloques sur le disque</translation>
     </message>
     <message>
@@ -1182,7 +1182,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
 <context>
     <name>QRImageWidget</name>
     <message>
-        <source>&amp;Save Image...</source>
+        <source>&amp;Save Image</source>
         <translation>Enregistrer l'image</translation>
     </message>
     <message>
@@ -1331,7 +1331,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Copier l'asdresse</translation>
     </message>
     <message>
-        <source>&amp;Save Image...</source>
+        <source>&amp;Save Image</source>
         <translation>Enregistrer l'image</translation>
     </message>
     <message>
@@ -1441,7 +1441,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Commission de transaction</translation>
     </message>
     <message>
-        <source>Choose...</source>
+        <source>Choose</source>
         <translation>Choisir...</translation>
     </message>
     <message>

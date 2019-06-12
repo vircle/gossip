@@ -442,7 +442,7 @@
         <translation>Visualizza informazioni su Qt</translation>
     </message>
     <message>
-        <source>&amp;Options...</source>
+        <source>&amp;Options</source>
         <translation>&amp;Opzioni...</translation>
     </message>
     <message>
@@ -454,7 +454,7 @@
         <translation>Mostra o nasconde la finestra principale</translation>
     </message>
     <message>
-        <source>&amp;Encrypt Wallet...</source>
+        <source>&amp;Encrypt Wallet</source>
         <translation>&amp;Cifra portafoglio...</translation>
     </message>
     <message>
@@ -462,7 +462,7 @@
         <translation>Crittografa le chiavi private nel tuo portafoglio</translation>
     </message>
     <message>
-        <source>&amp;Backup Wallet...</source>
+        <source>&amp;Backup Wallet</source>
         <translation>&amp;Backup portafoglio...</translation>
     </message>
     <message>
@@ -470,7 +470,7 @@
         <translation>Fa una copia di sicurezza del tuo portafoglio in un'altra posizione</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
+        <source>&amp;Change Passphrase</source>
         <translation>&amp;Modifica parola d'ordine...</translation>
     </message>
     <message>
@@ -478,7 +478,7 @@
         <translation>Modifica la parola d'ordine utilizzata per la crittografia del portafoglio</translation>
     </message>
     <message>
-        <source>&amp;Unlock Wallet...</source>
+        <source>&amp;Unlock Wallet</source>
         <translation>&amp;Sblocca portafoglio</translation>
     </message>
     <message>
@@ -490,11 +490,11 @@
         <translation>&amp;Blocca portafoglio</translation>
     </message>
     <message>
-        <source>Sign &amp;message...</source>
+        <source>Sign &amp;message</source>
         <translation>&amp;Firma messaggio...</translation>
     </message>
     <message>
-        <source>&amp;Verify message...</source>
+        <source>&amp;Verify message</source>
         <translation>&amp;Verifica messaggio...</translation>
     </message>
     <message>
@@ -550,7 +550,7 @@
         <translation>Mostra i backup dei portafogli creati automaticamente</translation>
     </message>
     <message>
-        <source>&amp;Sending addresses...</source>
+        <source>&amp;Sending addresses</source>
         <translation>&amp;Indirizzi Sorgente</translation>
     </message>
     <message>
@@ -558,7 +558,7 @@
         <translation>Mostra l'elenco degli indirizzi e delle etichette di invio utilizzati</translation>
     </message>
     <message>
-        <source>&amp;Receiving addresses...</source>
+        <source>&amp;Receiving addresses</source>
         <translation>&amp;Indirizzi di Destinazione</translation>
     </message>
     <message>
@@ -566,7 +566,7 @@
         <translation>Mostra l'elenco degli indirizzi e delle etichette di ricezione utilizzati</translation>
     </message>
     <message>
-        <source>Open &amp;URI...</source>
+        <source>Open &amp;URI</source>
         <translation>Apri URL</translation>
     </message>
     <message>
@@ -598,7 +598,7 @@
         <translation>Invia monete all' indirizzo GOSSIP</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and gossip: URIs)</source>
+        <source>Request payments</source>
         <translation>Richiedi pagamenti (genera codici QR e gossip: URIs)</translation>
     </message>
     <message>
@@ -650,19 +650,19 @@
         <translation>Mostra il messaggio di aiuto GOSSIP Core per ottenere un elenco con le possibili opzioni di riga di comando GOSSIP</translation>
     </message>
     <message>
-        <source>Synchronizing with network...</source>
+        <source>Synchronizing with network</source>
         <translation>Sincronizzazione con la rete ...</translation>
     </message>
     <message>
-        <source>Importing blocks from disk...</source>
+        <source>Importing blocks from disk</source>
         <translation>Importazione di blocchi dal disco ...</translation>
     </message>
     <message>
-        <source>Reindexing blocks on disk...</source>
+        <source>Reindexing blocks on disk</source>
         <translation>Reindicizzazione blocchi su disco ...</translation>
     </message>
     <message>
-        <source>No block source available...</source>
+        <source>No block source available</source>
         <translation>Nessuna sorgente dei blocchi disponibile ...</translation>
     </message>
     <message>

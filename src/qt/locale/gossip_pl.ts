@@ -366,7 +366,7 @@
         <translation>Pokaż więcej informacji o Qt</translation>
     </message>
     <message>
-        <source>&amp;Options...</source>
+        <source>&amp;Options</source>
         <translation>&amp;Opcje</translation>
     </message>
     <message>
@@ -378,7 +378,7 @@
         <translation>Pokaż lub ukryj główne okno</translation>
     </message>
     <message>
-        <source>&amp;Encrypt Wallet...</source>
+        <source>&amp;Encrypt Wallet</source>
         <translation>&amp;Zakoduj portfel</translation>
     </message>
     <message>
@@ -386,7 +386,7 @@
         <translation>Zakoduj prywatne klucze, które należą do twojego portfela</translation>
     </message>
     <message>
-        <source>&amp;Backup Wallet...</source>
+        <source>&amp;Backup Wallet</source>
         <translation>&amp;Kopia zapasowa portfela</translation>
     </message>
     <message>
@@ -394,7 +394,7 @@
         <translation>&amp;Kopia zapasowa portfela z innej lokacji</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
+        <source>&amp;Change Passphrase</source>
         <translation>&amp;Zmień hasło</translation>
     </message>
     <message>
@@ -402,7 +402,7 @@
         <translation>Zmień hasło do zakodowania portfela</translation>
     </message>
     <message>
-        <source>&amp;Unlock Wallet...</source>
+        <source>&amp;Unlock Wallet</source>
         <translation>&amp;Odblokuj portfel</translation>
     </message>
     <message>
@@ -414,11 +414,11 @@
         <translation>&amp;Zablokuj portfel</translation>
     </message>
     <message>
-        <source>Sign &amp;message...</source>
+        <source>Sign &amp;message</source>
         <translation>&amp;Zatwierdź wiadomość</translation>
     </message>
     <message>
-        <source>&amp;Verify message...</source>
+        <source>&amp;Verify message</source>
         <translation>&amp;Zweryfikuj wiadomość</translation>
     </message>
     <message>
@@ -474,7 +474,7 @@
         <translation>Pokaż automatycznie stworzone kopie zapasowe portfela</translation>
     </message>
     <message>
-        <source>&amp;Sending addresses...</source>
+        <source>&amp;Sending addresses</source>
         <translation>&amp;Adres wysyłki</translation>
     </message>
     <message>
@@ -482,7 +482,7 @@
         <translation>Pokaż listę używanych adresów i zakładek do wysyłania</translation>
     </message>
     <message>
-        <source>&amp;Receiving addresses...</source>
+        <source>&amp;Receiving addresses</source>
         <translation>&amp;Adres odbiorczy</translation>
     </message>
     <message>
@@ -490,7 +490,7 @@
         <translation>Pokaż listę używanych adresów odbiorczych i zakładek</translation>
     </message>
     <message>
-        <source>Open &amp;URI...</source>
+        <source>Open &amp;URI</source>
         <translation>Otwórz &amp;URL</translation>
     </message>
     <message>
@@ -526,7 +526,7 @@
         <translation>Wyślij monety do adresu GOSSIP</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and gossip: URIs)</source>
+        <source>Request payments</source>
         <translation>Zarządaj płatności (generuje kod QR i gossip:URI)</translation>
     </message>
     <message>
@@ -602,19 +602,19 @@
         <translation>Rdzeń GOSSIP klient</translation>
     </message>
     <message>
-        <source>Synchronizing with network...</source>
+        <source>Synchronizing with network</source>
         <translation>Synchronizuję z siecią</translation>
     </message>
     <message>
-        <source>Importing blocks from disk...</source>
+        <source>Importing blocks from disk</source>
         <translation>Importowanie bloków z dysku</translation>
     </message>
     <message>
-        <source>Reindexing blocks on disk...</source>
+        <source>Reindexing blocks on disk</source>
         <translation>Reindeksowanie bloków na dysku</translation>
     </message>
     <message>
-        <source>No block source available...</source>
+        <source>No block source available</source>
         <translation>Brak źródła bloków</translation>
     </message>
     <message>
@@ -1504,7 +1504,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations </translati
 <context>
     <name>QRImageWidget</name>
     <message>
-        <source>&amp;Save Image...</source>
+        <source>&amp;Save Image</source>
         <translation>&amp;Zapisz obrazek</translation>
     </message>
     <message>
@@ -1761,7 +1761,7 @@ https://www.transifex.com/gossip-project/gossip-project-translations </translati
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
-        <source>&amp;Save Image...</source>
+        <source>&amp;Save Image</source>
         <translation>&amp;Zapisz obrazek</translation>
     </message>
     <message>

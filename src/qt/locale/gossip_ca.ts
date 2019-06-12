@@ -326,7 +326,7 @@
         <translation>Mostra informació sobre el Qt</translation>
     </message>
     <message>
-        <source>&amp;Options...</source>
+        <source>&amp;Options</source>
         <translation>&amp;Opcions...</translation>
     </message>
     <message>
@@ -334,19 +334,19 @@
         <translation>Mostra o oculta la Finestra principal</translation>
     </message>
     <message>
-        <source>&amp;Encrypt Wallet...</source>
+        <source>&amp;Encrypt Wallet</source>
         <translation>&amp;Encripta el moneder...</translation>
     </message>
     <message>
-        <source>&amp;Backup Wallet...</source>
+        <source>&amp;Backup Wallet</source>
         <translation>Realitza una &amp;còpia de seguretat del moneder...</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
+        <source>&amp;Change Passphrase</source>
         <translation>&amp;Canvia la contrasenya...</translation>
     </message>
     <message>
-        <source>&amp;Unlock Wallet...</source>
+        <source>&amp;Unlock Wallet</source>
         <translation>&amp;Desbloqueja el moneder...</translation>
     </message>
     <message>
@@ -358,11 +358,11 @@
         <translation>B&amp;loqueja el moneder</translation>
     </message>
     <message>
-        <source>Sign &amp;message...</source>
+        <source>Sign &amp;message</source>
         <translation>Signa &amp;missatge...</translation>
     </message>
     <message>
-        <source>&amp;Verify message...</source>
+        <source>&amp;Verify message</source>
         <translation>&amp;Verifica un missatge...</translation>
     </message>
     <message>
@@ -390,16 +390,16 @@
         <translation>Obre el fitxer de configuració</translation>
     </message>
     <message>
-        <source>&amp;Sending addresses...</source>
+        <source>&amp;Sending addresses</source>
         <translation>Adreces d'&amp;enviament...</translation>
     </message>
     <message>
-        <source>&amp;Receiving addresses...</source>
+        <source>&amp;Receiving addresses</source>
         <translation>Adreces de &amp;recepció...</translation>
     </message>
     <message>
-        <source>Open &amp;URI...</source>
-        <translation>Obre l'&amp;URI...</translation>
+        <source>Open &amp;URI</source>
+        <translation>Obre l'&amp;URI</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -466,7 +466,7 @@
         <translation><numerusform>%n connexió activa a la xarxa GOSSIP</numerusform><numerusform>%n connexions actives a la xarxa GOSSIP</numerusform></translation>
     </message>
     <message>
-        <source>Synchronizing with network...</source>
+        <source>Synchronizing with network</source>
         <translation>Sinconitzant amb la xarxa...</translation>
     </message>
     <message>
@@ -1719,7 +1719,7 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>GOSSIP Core is shutting down...</source>
+        <source>GOSSIP Core is shutting down</source>
         <translation>GOSSIP Core s'està tancant...</translation>
     </message>
     <message>
@@ -2010,7 +2010,7 @@
         <translation>Clau privada no vàlida.</translation>
     </message>
     <message>
-        <source>Loading block index...</source>
+        <source>Loading block index</source>
         <translation>S'està carregant l'índex de blocs...</translation>
     </message>
     <message>
@@ -2018,7 +2018,7 @@
         <translation>S'està carregant el moneder... (%3.2f %%)</translation>
     </message>
     <message>
-        <source>Loading wallet...</source>
+        <source>Loading wallet</source>
         <translation>S'està carregant el moneder...</translation>
     </message>
     <message>
@@ -2026,7 +2026,7 @@
         <translation>Masternode:</translation>
     </message>
     <message>
-        <source>Mixing in progress...</source>
+        <source>Mixing in progress</source>
         <translation>Mescla en curs...</translation>
     </message>
     <message>
@@ -2046,7 +2046,7 @@
         <translation>Opcions del servidor RPC:</translation>
     </message>
     <message>
-        <source>Rescanning...</source>
+        <source>Rescanning</source>
         <translation>S'està reescanejant...</translation>
     </message>
     <message>
@@ -2074,11 +2074,11 @@
         <translation>Transacció no vàlida.</translation>
     </message>
     <message>
-        <source>Verifying blocks...</source>
+        <source>Verifying blocks</source>
         <translation>Verificant blocs...</translation>
     </message>
     <message>
-        <source>Verifying wallet...</source>
+        <source>Verifying wallet</source>
         <translation>Verificant moneder...</translation>
     </message>
     <message>

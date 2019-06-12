@@ -456,7 +456,7 @@
         <translation>Qt hakkında bilgi ver</translation>
     </message>
     <message>
-        <source>&amp;Options...</source>
+        <source>&amp;Options</source>
         <translation>Seçenekler...</translation>
     </message>
     <message>
@@ -468,7 +468,7 @@
         <translation>Ana pencereyi göster veya gizle</translation>
     </message>
     <message>
-        <source>&amp;Encrypt Wallet...</source>
+        <source>&amp;Encrypt Wallet</source>
         <translation>Cüzdan şifrele...</translation>
     </message>
     <message>
@@ -476,7 +476,7 @@
         <translation>Cüzdanınıza ait özel anahtarları şifreleyin</translation>
     </message>
     <message>
-        <source>&amp;Backup Wallet...</source>
+        <source>&amp;Backup Wallet</source>
         <translation>Cüzdanı yedekle</translation>
     </message>
     <message>
@@ -484,7 +484,7 @@
         <translation>Cüzdanı başka biryere yedekle</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
+        <source>&amp;Change Passphrase</source>
         <translation>Parolayı değiştir</translation>
     </message>
     <message>
@@ -492,7 +492,7 @@
         <translation>Cüzdan şifrelemesi için kullanılan parolayı değiştir.</translation>
     </message>
     <message>
-        <source>&amp;Unlock Wallet...</source>
+        <source>&amp;Unlock Wallet</source>
         <translation>Cüzdanı aç</translation>
     </message>
     <message>
@@ -504,11 +504,11 @@
         <translation>Cüzdanı kilitle</translation>
     </message>
     <message>
-        <source>Sign &amp;message...</source>
+        <source>Sign &amp;message</source>
         <translation>İmza ve mesaj</translation>
     </message>
     <message>
-        <source>&amp;Verify message...</source>
+        <source>&amp;Verify message</source>
         <translation>Mesajı doğrula</translation>
     </message>
     <message>
@@ -564,7 +564,7 @@
         <translation>Otomatik olarak oluşturulan cüzdan yedeklerini göster</translation>
     </message>
     <message>
-        <source>&amp;Sending addresses...</source>
+        <source>&amp;Sending addresses</source>
         <translation>&amp; Adres gönderiliyor ...</translation>
     </message>
     <message>
@@ -573,7 +573,7 @@
 </translation>
     </message>
     <message>
-        <source>&amp;Receiving addresses...</source>
+        <source>&amp;Receiving addresses</source>
         <translation>Adresler alınıyor ...</translation>
     </message>
     <message>
@@ -581,7 +581,7 @@
         <translation>Alınan alıcı adres ve etiketlerin listesini göster</translation>
     </message>
     <message>
-        <source>Open &amp;URI...</source>
+        <source>Open &amp;URI</source>
         <translation>Aç &amp; URI ...</translation>
     </message>
     <message>
@@ -621,7 +621,7 @@
         <translation>Koinleri GOSSIP adresine gönder</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and gossip: URIs)</source>
+        <source>Request payments</source>
         <translation>Ödeme talep etme (QR kodları ve gossip üretir: URI'ler)</translation>
     </message>
     <message>
@@ -706,19 +706,19 @@
         <translation>GOSSIP Core istemci</translation>
     </message>
     <message>
-        <source>Synchronizing with network...</source>
+        <source>Synchronizing with network</source>
         <translation>Ağ ile senkronize ediliyor</translation>
     </message>
     <message>
-        <source>Importing blocks from disk...</source>
+        <source>Importing blocks from disk</source>
         <translation>Bloklar diskten içe aktarılıyor</translation>
     </message>
     <message>
-        <source>Reindexing blocks on disk...</source>
+        <source>Reindexing blocks on disk</source>
         <translation>Diskteki blokları yeniden endeksleme ...</translation>
     </message>
     <message>
-        <source>No block source available...</source>
+        <source>No block source available</source>
         <translation>Blok kaynağı yok ...</translation>
     </message>
     <message>
@@ -730,7 +730,7 @@
         <translation>%1 geride</translation>
     </message>
     <message>
-        <source>Catching up...</source>
+        <source>Catching up</source>
         <translation>Yakalanıyor...</translation>
     </message>
     <message>

@@ -572,7 +572,7 @@
     </message>
     <message>
         <location line="+2"/>
-        <source>&amp;Options...</source>
+        <source>&amp;Options</source>
         <translation>&amp;Options...</translation>
     </message>
     <message>
@@ -587,8 +587,8 @@
     </message>
     <message>
         <location line="+2"/>
-        <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Encrypt Wallet...</translation>
+        <source>&amp;Encrypt Wallet</source>
+        <translation>&amp;Encrypt Wallet</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -597,8 +597,8 @@
     </message>
     <message>
         <location line="+2"/>
-        <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Backup Wallet...</translation>
+        <source>&amp;Backup Wallet</source>
+        <translation>&amp;Backup Wallet</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -607,8 +607,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Change Passphrase...</translation>
+        <source>&amp;Change Passphrase</source>
+        <translation>&amp;Change Passphrase</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -617,7 +617,7 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>&amp;Unlock Wallet...</source>
+        <source>&amp;Unlock Wallet</source>
         <translation>&amp;Unlock Wallet...</translation>
     </message>
     <message>
@@ -632,13 +632,13 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Sign &amp;message...</source>
-        <translation>Sign &amp;message...</translation>
+        <source>Sign &amp;message</source>
+        <translation>Sign &amp;message</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>&amp;Verify message...</source>
-        <translation>&amp;Verify message...</translation>
+        <source>&amp;Verify message</source>
+        <translation>&amp;Verify message</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -707,8 +707,8 @@
     </message>
     <message>
         <location line="+2"/>
-        <source>&amp;Sending addresses...</source>
-        <translation>&amp;Sending addresses...</translation>
+        <source>&amp;Sending addresses</source>
+        <translation>&amp;Sending addresses</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -717,8 +717,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>&amp;Receiving addresses...</source>
-        <translation>&amp;Receiving addresses...</translation>
+        <source>&amp;Receiving addresses</source>
+        <translation>&amp;Receiving addresses</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -727,7 +727,7 @@
     </message>
     <message>
         <location line="+2"/>
-        <source>&amp;Multisignature creation...</source>
+        <source>&amp;Multisignature creation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -737,7 +737,7 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>&amp;Multisignature spending...</source>
+        <source>&amp;Multisignature spending</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -747,7 +747,7 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>&amp;Multisignature signing...</source>
+        <source>&amp;Multisignature signing</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -757,8 +757,8 @@
     </message>
     <message>
         <location line="+2"/>
-        <source>Open &amp;URI...</source>
-        <translation>Open &amp;URI...</translation>
+        <source>Open &amp;URI</source>
+        <translation>Open &amp;URI</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -821,7 +821,7 @@
     </message>
     <message>
         <location line="+11"/>
-        <source>Request payments (generates QR codes and gossip: URIs)</source>
+        <source>Request payments</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -934,22 +934,22 @@
     </message>
     <message>
         <location line="+15"/>
-        <source>Synchronizing with network...</source>
+        <source>Synchronizing with network</source>
         <translation>Synchronizing with network...</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Importing blocks from disk...</source>
+        <source>Importing blocks from disk</source>
         <translation>Importing blocks from disk...</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Reindexing blocks on disk...</source>
+        <source>Reindexing blocks on disk</source>
         <translation>Reindexing blocks on disk...</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>No block source available...</source>
+        <source>No block source available</source>
         <translation>No block source available...</translation>
     </message>
     <message>
@@ -997,7 +997,7 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>Catching up...</source>
+        <source>Catching up</source>
         <translation>Catching up...</translation>
     </message>
     <message>
@@ -2729,7 +2729,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
     <message>
         <location line="-46"/>
         <location line="+13"/>
-        <source>Locked GOSS or Masternode collaterals. These are excluded from zGOSS minting.</source>
+        <source>Locked GOSS Masternode collaterals. These are excluded from zGOSS minting.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3043,7 +3043,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+26"/>
-        <source>Coin Control...</source>
+        <source>Coin Control</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3469,7 +3469,7 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
     <message>
         <location line="+30"/>
         <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware.
-Please be patient...</source>
+Please be patient</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3532,7 +3532,7 @@ Please be patient...</source>
         <location line="+11"/>
         <source>Spending Zerocoin.
 Computationally expensive, might need several minutes depending on the selected Security Level and your hardware.
-Please be patient...</source>
+Please be patient</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3676,7 +3676,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <name>QRImageWidget</name>
     <message>
         <location filename="../receiverequestdialog.cpp" line="+35"/>
-        <source>&amp;Save Image...</source>
+        <source>&amp;Save Image</source>
         <translation>&amp;Save Image...</translation>
     </message>
     <message>
@@ -4147,7 +4147,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <message>
         <location line="+2"/>
         <location line="+1"/>
-        <source>Fetching...</source>
+        <source>Fetching</source>
         <translation>Fetching...</translation>
     </message>
 </context>
@@ -4280,7 +4280,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+10"/>
-        <source>&amp;Save Image...</source>
+        <source>&amp;Save Image</source>
         <translation>&amp;Save Image...</translation>
     </message>
     <message>
@@ -4474,7 +4474,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+14"/>
-        <source>Choose...</source>
+        <source>Choose</source>
         <translation>Choose...</translation>
     </message>
     <message>
@@ -4524,7 +4524,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="-947"/>
-        <source>Open Coin Control...</source>
+        <source>Open Coin Control</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4904,7 +4904,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+75"/>
-        <source>GOSSIP Core is shutting down...</source>
+        <source>GOSSIP Core is shutting down</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5650,7 +5650,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Range...</source>
+        <source>Range</source>
         <translation>Range...</translation>
     </message>
     <message>
@@ -6372,7 +6372,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GOSSIP Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+1"/>
-        <source>Calculating missing accumulators...</source>
+        <source>Calculating missing accumulators</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6667,7 +6667,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GOSSIP Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+1"/>
-        <source>Found enough users, signing ...</source>
+        <source>Found enough users, signing </source>
         <translation type="unfinished">Found enough users, signing ...</translation>
     </message>
     <message>
@@ -6687,7 +6687,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GOSSIP Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+1"/>
-        <source>Importing...</source>
+        <source>Importing</source>
         <translation type="unfinished">Importing...</translation>
     </message>
     <message>
@@ -6959,32 +6959,32 @@ for example: alertnotify=echo %%s | mail -s &quot;GOSSIP Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+1"/>
-        <source>Loading addresses...</source>
+        <source>Loading addresses</source>
         <translation type="unfinished">Loading addresses...</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Loading block index...</source>
+        <source>Loading block index</source>
         <translation type="unfinished">Loading block index...</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Loading budget cache...</source>
+        <source>Loading budget cache</source>
         <translation type="unfinished">Loading budget cache...</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Loading masternode cache...</source>
+        <source>Loading masternode cache</source>
         <translation type="unfinished">Loading masternode cache...</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Loading masternode payment cache...</source>
+        <source>Loading masternode payment cache</source>
         <translation type="unfinished">Loading masternode payment cache...</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Loading sporks...</source>
+        <source>Loading sporks</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6994,7 +6994,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GOSSIP Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+1"/>
-        <source>Loading wallet...</source>
+        <source>Loading wallet</source>
         <translation type="unfinished">Loading wallet...</translation>
     </message>
     <message>
@@ -7044,7 +7044,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GOSSIP Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+1"/>
-        <source>Mixing in progress...</source>
+        <source>Mixing in progress</source>
         <translation type="unfinished">Mixing in progress...</translation>
     </message>
     <message>
@@ -7144,7 +7144,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GOSSIP Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+1"/>
-        <source>Preparing for resync...</source>
+        <source>Preparing for resync</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7189,12 +7189,12 @@ for example: alertnotify=echo %%s | mail -s &quot;GOSSIP Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+1"/>
-        <source>Recalculating coin supply may take 30-60 minutes...</source>
+        <source>Recalculating coin supply may take 30-60 minutes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Recalculating supply statistics may take 30-60 minutes...</source>
+        <source>Recalculating supply statistics may take 30-60 minutes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7224,7 +7224,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GOSSIP Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+1"/>
-        <source>Rescanning...</source>
+        <source>Rescanning</source>
         <translation type="unfinished">Rescanning...</translation>
     </message>
     <message>
@@ -7419,27 +7419,27 @@ for example: alertnotify=echo %%s | mail -s &quot;GOSSIP Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+1"/>
-        <source>Synchronization pending...</source>
+        <source>Synchronization pending</source>
         <translation type="unfinished">Synchronization pending...</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Synchronizing budgets...</source>
+        <source>Synchronizing budgets</source>
         <translation type="unfinished">Synchronizing budgets...</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Synchronizing masternode winners...</source>
+        <source>Synchronizing masternode winners</source>
         <translation type="unfinished">Synchronizing masternode winners...</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Synchronizing masternodes...</source>
+        <source>Synchronizing masternodes</source>
         <translation type="unfinished">Synchronizing masternodes...</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Synchronizing sporks...</source>
+        <source>Synchronizing sporks</source>
         <translation type="unfinished">Synchronizing sporks...</translation>
     </message>
     <message>
@@ -7579,12 +7579,12 @@ for example: alertnotify=echo %%s | mail -s &quot;GOSSIP Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+1"/>
-        <source>Verifying blocks...</source>
+        <source>Verifying blocks</source>
         <translation type="unfinished">Verifying blocks...</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Verifying wallet...</source>
+        <source>Verifying wallet</source>
         <translation type="unfinished">Verifying wallet...</translation>
     </message>
     <message>
@@ -7634,7 +7634,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GOSSIP Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+1"/>
-        <source>Will retry...</source>
+        <source>Will retry</source>
         <translation type="unfinished">Will retry...</translation>
     </message>
     <message>
@@ -7654,7 +7654,7 @@ for example: alertnotify=echo %%s | mail -s &quot;GOSSIP Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+1"/>
-        <source>Zapping all transactions from wallet...</source>
+        <source>Zapping all transactions from wallet</source>
         <translation type="unfinished">Zapping all transactions from wallet...</translation>
     </message>
     <message>
