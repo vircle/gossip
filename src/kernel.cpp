@@ -36,8 +36,8 @@ static std::map<int, unsigned int> mapStakeModifierCheckpoints =
     (     0, 0x1e0ffff0)
     (  1260, 0x1b2f247e)
     (  4850, 0x1b386b1f)
-	( 54361, 0x1b0179bb)
-	(125021, 0x1b008fec);
+    ( 54361, 0x1b0179bb)
+    (125021, 0x1b008fec);
 
 // Get time weight
 int64_t GetWeight(int64_t nIntervalBeginning, int64_t nIntervalEnd)
