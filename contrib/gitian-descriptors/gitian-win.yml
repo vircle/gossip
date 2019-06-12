@@ -23,7 +23,7 @@ packages:
 - "python"
 - "rename"
 remotes:
-- "url": "https://bitbucket.org/GOSSIPCOIN/gossip-dev.git"
+- "url": "https://bitbucket.org/GOSSIPCOIN/gossip.git"
   "dir": "gossip"
 files: []
 script: |

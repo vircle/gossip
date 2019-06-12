@@ -29,7 +29,7 @@ packages:
 - "python"
 reference_datetime: "2019-06-11 00:00:00"
 remotes:
-- "url": "https://bitbucket.org/GOSSIPCOIN/gossip-dev.git"
+- "url": "https://bitbucket.org/GOSSIPCOIN/gossip.git"
   "dir": "gossip"
 files: []
 script: |
