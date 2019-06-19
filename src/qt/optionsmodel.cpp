@@ -65,9 +65,8 @@ void OptionsModel::Init()
         settings.setValue("nDisplayUnit", BitcoinUnits::GOSS);
     nDisplayUnit = settings.value("nDisplayUnit").toInt();
 
-    if (!settings.contains("strThirdPartyTxUrls"))
-        settings.setValue("strThirdPartyTxUrls", "");
-    strThirdPartyTxUrls = settings.value("strThirdPartyTxUrls", "").toString();
+    // Set the block explorer URL
+    strThirdPartyTxUrls = "https://explorer.gossipcoin.net/#/tx/%s";
 
     if (!settings.contains("fHideZeroBalances"))
         settings.setValue("fHideZeroBalances", true);
@@ -142,7 +141,6 @@ void OptionsModel::Init()
         settings.setValue("fUseProxy", false);
     if (!settings.contains("addrProxy"))
         settings.setValue("addrProxy", "127.0.0.1:9050");
-    // Only try to set -proxy, if user has enabled fUseProxy
     if (settings.value("fUseProxy").toBool() && !SoftSetArg("-proxy", settings.value("addrProxy").toString().toStdString()))
         addOverriddenOption("-proxy");
     else if (!settings.value("fUseProxy").toBool() && !GetArg("-proxy", "").empty())
@@ -234,10 +232,9 @@ QVariant OptionsModel::data(const QModelIndex& index, int role) const
                 return QVariant((int)pwalletMain->nStakeSplitThreshold);
             return settings.value("nStakeSplitThreshold");
         case DisplayUnit:
-
             return nDisplayUnit;
         case ThirdPartyTxUrls:
-            return strThirdPartyTxUrls;
+            return settings.value("https://explorer.gossipcoin.net/#/tx/%s");
         case Digits:
             return settings.value("digits");
         case Theme:
@@ -342,13 +339,6 @@ bool OptionsModel::setData(const QModelIndex& index, const QVariant& value, int 
         case DisplayUnit:
             setDisplayUnit(value);
             break;
-        case ThirdPartyTxUrls:
-            if (strThirdPartyTxUrls != value.toString()) {
-                strThirdPartyTxUrls = value.toString();
-                settings.setValue("strThirdPartyTxUrls", strThirdPartyTxUrls);
-                setRestartRequired(true);
-            }
-            break;
         case Digits:
             if (settings.value("digits") != value) {
                 settings.setValue("digits", value);
@@ -440,7 +430,6 @@ void OptionsModel::setDisplayUnit(const QVariant& value)
 /* Update StakeSplitThreshold's value in wallet */
 void OptionsModel::setStakeSplitThreshold(int value)
 {
-    // XXX: maybe it's worth to wrap related stuff with WALLET_ENABLE ?
     uint64_t nStakeSplitThreshold;
 
     nStakeSplitThreshold = value;

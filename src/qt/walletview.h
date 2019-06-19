@@ -87,7 +87,7 @@ public slots:
     /** Switch to explorer page */
     void gotoBlockExplorerPage();
     /** Switch to privacy page */
-    void gotoPrivacyPage();
+    //void gotoPrivacyPage();
     /** Switch to proposal page */
     void gotoProposalPage();	
     /** Switch to receive coins page */

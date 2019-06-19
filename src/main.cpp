@@ -5881,10 +5881,8 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
         // broken releases with wrong blockchain data
         if (pfrom->cleanSubVer == "/GOSSIP Core:1.0.0/" ||
             pfrom->cleanSubVer == "/GOSSIP Core:1.0.1/" ||
-			pfrom->cleanSubVer == "/GOSSIP Core:1.1.0/" ||
-			pfrom->cleanSubVer == "/GOSSIP Core:1.2.0/" ||
-			pfrom->cleanSubVer == "/GOSSIP Core:1.3.0/" ||
-            pfrom->cleanSubVer == "/GOSSIP Core:1.4./") {
+            pfrom->cleanSubVer == "/GOSSIP Core:1.1.0/" ||
+            pfrom->cleanSubVer == "/GOSSIP Core:2.0.0/") {
             LOCK(cs_main);
             Misbehaving(pfrom->GetId(), 100); // instantly ban them because they have bad block data
             return false;

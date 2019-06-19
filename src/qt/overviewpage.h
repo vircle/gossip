@@ -52,9 +52,9 @@ private:
     CAmount currentBalance;
     CAmount currentUnconfirmedBalance;
     CAmount currentImmatureBalance;
-    CAmount currentZerocoinBalance;
-    CAmount currentUnconfirmedZerocoinBalance;
-    CAmount currentimmatureZerocoinBalance;
+    CAmount currentZerocoinBalance; //smai: removing
+    CAmount currentUnconfirmedZerocoinBalance; //smai: removing
+    CAmount currentimmatureZerocoinBalance; //smai: removing
     CAmount currentWatchOnlyBalance;
     CAmount currentWatchUnconfBalance;
     CAmount currentWatchImmatureBalance;
