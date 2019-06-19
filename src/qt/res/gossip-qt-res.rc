@@ -1,4 +1,4 @@
-IDI_ICON1 ICON DISCARDABLE "icons/gossip-qt.ico"
+IDI_ICON1 ICON DISCARDABLE "icons/gossip.ico"
 IDI_ICON2 ICON DISCARDABLE "icons/gossip_testnet.ico"
 
 #include <windows.h>             // needed for VERSIONINFO
