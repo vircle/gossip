@@ -1,6 +1,7 @@
 ---
 name: "gossip-linux-2.1"
 enable_cache: true
+distro: "ubuntu"
 suites:
 - "bionic"
 architectures:
@@ -26,7 +27,7 @@ packages:
 - "faketime"
 - "bsdmainutils"
 - "ca-certificates"
-- "python"
+- "python3"
 reference_datetime: "2019-06-11 00:00:00"
 remotes:
 - "url": "https://bitbucket.org/GOSSIPCOIN/gossip.git"
@@ -34,6 +35,7 @@ remotes:
 files: []
 script: |
 
+  set -e -o pipefail
   WRAP_DIR=$HOME/wrapped
   HOSTS="i686-pc-linux-gnu x86_64-linux-gnu arm-linux-gnueabihf"
   CONFIGFLAGS="--enable-glibc-back-compat --enable-reduce-exports --disable-bench --disable-gui-tests"
