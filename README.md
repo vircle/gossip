@@ -45,20 +45,27 @@
 
 ## Release Notes
 
-### Version 2.1.1 - 12/06/2019
+### Version 2.1.1 - 2019/06/20
 
+* Add: directory cleanup
+* Add: added checkpoints
+* Add: update depencies
+* Add: add GOSSIP quick links to the overview page
 * Fix: icons update
-* Fix: directory cleanup
-* Fix: added checkpoints
-* Fix: update depencies
 * Fix: update some tooltips
-* Fix: remove percentage from title page
 * Fix: update menu labels
 * Fix: update mouseover text
 * Fix: correction in governance
+* Fix: Set the min protocol version to 79781
 * Fix: stop using dummy strings in clientversion.cpp
+* Add: remove amount percentages from title page
+* Add: remove zGOSS from: overviewpage, help commands, some place in the wallet options
+* Add: remove privacy label from the UI
+* Add: set the default db cache from 100MB to 300MB
+* Add: increase the default number of wallet backups from 10 to 20
+* Add: build GOSSIP Core for the AARCH64 CPU architecture, so we can run the wallet on ARM v8 PC's (like Odroid)
 
-### Version 2.1.0 - 16/04/2019
+### Version 2.1.0 - 2019/04/16
 
 * Feature: Add proposals via wallet GUI
 * Fix: Spork keys correction
@@ -67,7 +74,7 @@
 * Fix: Reduced max. outbound connections from 24 to 16 to reduce traffic
 * Add: Increasing protocol version from 79780 to 79781
 
-### Version 2.0.0 - 17/03/2019
+### Version 2.0.0 - 2019/03/17
 
 * Initial Release
 
