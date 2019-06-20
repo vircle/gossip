@@ -51,6 +51,7 @@
 * Add: added checkpoints
 * Add: update depencies
 * Add: add GOSSIP quick links to the overview page
+* Add: direct link to the block explorer in the right click action of a transaction
 * Fix: icons update
 * Fix: update some tooltips
 * Fix: update menu labels
