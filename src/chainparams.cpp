@@ -50,7 +50,8 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (     0, uint256("0x00000de6a05a95fb27a241808eb19636411f91455cb56f9dbb76e04cad966550"))
+    //(     0, uint256("0x00000de6a05a95fb27a241808eb19636411f91455cb56f9dbb76e04cad966550"))
+	(     0, uint256("0x00000b1a08364a1ddd8c3997357ba96378301cb63bf08ccd84a471fbcff0e6c8"))
     (  1260, uint256("0xbeb46737a7241b5615344cf47410933097eef307c73f5ab029ae3b65c894c62b"))
     (  4862, uint256("0xb4fc63320353bfdfb0cea62eeee026dc2442e91e36b5191b2a145246e3b5acd9"))
     ( 54391, uint256("0x6b2f0e4b2fff231f3a9e27a6e3f01881db74989a59137db9db048cf403b55662"))
@@ -58,8 +59,11 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
     1561046737, // * UNIX timestamp of last checkpoint block
+	//1569492000, // * UNIX timestamp of last checkpoint block
     269408,     // * total number of transactions between genesis and last checkpoint
+	//0,     // * total number of transactions between genesis and last checkpoint
     1440        // * estimated number of transactions per day after checkpoint
+	//0        // * estimated number of transactions per day after checkpoint
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
@@ -113,7 +117,8 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0xbc;
+        //pchMessageStart[0] = 0xbc;
+		pchMessageStart[0] = 0xbb;
         pchMessageStart[1] = 0x7d;
         pchMessageStart[2] = 0xd8;
         pchMessageStart[3] = 0xcd;
@@ -157,18 +162,21 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1551880800;
+        //genesis.nTime = 1551880800;
+		genesis.nTime = 1569492000;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 615806;
+        //genesis.nNonce = 615806;
+		genesis.nNonce = 595566;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000de6a05a95fb27a241808eb19636411f91455cb56f9dbb76e04cad966550"));
+        //assert(hashGenesisBlock == uint256("0x00000de6a05a95fb27a241808eb19636411f91455cb56f9dbb76e04cad966550"));
+		assert(hashGenesisBlock == uint256("0x00000b1a08364a1ddd8c3997357ba96378301cb63bf08ccd84a471fbcff0e6c8"));
         assert(genesis.hashMerkleRoot == uint256("0xcbc9930b999fcd422cc3973934beaccbc34168f0ff9279cefa52ff19907d72ce"));
 
-        vSeeds.push_back(CDNSSeedData("gossipcoin.org", "s0.gossipcoin.org"));
-        vSeeds.push_back(CDNSSeedData("gossipcoin.org", "s1.gossipcoin.org"));
-    	vSeeds.push_back(CDNSSeedData("gossipcoin.org", "s2.gossipcoin.org"));
-        vSeeds.push_back(CDNSSeedData("s3.gossipcoin.org", "s3.gossipcoin.org"));
+        vSeeds.push_back(CDNSSeedData("gossipcoin1.org", "s0.gossipcoin1.org"));
+        vSeeds.push_back(CDNSSeedData("gossipcoin1.org", "s1.gossipcoin1.org"));
+    	vSeeds.push_back(CDNSSeedData("gossipcoin1.org", "s2.gossipcoin1.org"));
+        vSeeds.push_back(CDNSSeedData("s3.gossipcoin1.org", "s3.gossipcoin1.org"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 30 + 8);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 121 + 17);
@@ -252,10 +260,13 @@ public:
 
         nZerocoinLastOldParams = 777777;
 
-        genesis.nTime = 1551880800;
-        genesis.nNonce = 615806;
+        //genesis.nTime = 1551880800;
+        genesis.nTime = 1569492000;
+		//genesis.nNonce = 615806;
+		genesis.nNonce = 595566;
 
-        assert(hashGenesisBlock == uint256("0x00000de6a05a95fb27a241808eb19636411f91455cb56f9dbb76e04cad966550"));
+        //assert(hashGenesisBlock == uint256("0x00000de6a05a95fb27a241808eb19636411f91455cb56f9dbb76e04cad966550"));
+		assert(hashGenesisBlock == uint256("0x00000b1a08364a1ddd8c3997357ba96378301cb63bf08ccd84a471fbcff0e6c8"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
